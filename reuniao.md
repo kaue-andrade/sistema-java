@@ -1,4 +1,4 @@
-# Nome do Projeto
+# SISTEMA PARA A CANTINA - IFBA _CAMPUS_ EUCLIDES DA CUNHA
 
 
 ## Ata de Reunião
