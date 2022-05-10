@@ -28,7 +28,7 @@
 ### Ações a serem tomadas
 | Ação                                      | Responsável  |
 | ----------------------------------------- | ------------ |
-| Criar cadastro para clientes              | @FulanoDeTal |
+| Criar cadastro para clientes              | @Kauê |
 | Permitir que os clientes realizem pedidos | @Beltrano    |
 
 ### Informações Adicionais
