@@ -1,5 +1,4 @@
-# Nome do Projeto
-
+# Sistema para a cantina
 
 ### Justificativa
 Alguma coisa aqui
