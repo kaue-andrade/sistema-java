@@ -9,9 +9,11 @@
 
 
 ### Participantes
-* eu
-* tu
-* ele
+* Antonio Carlos Borges de Souza
+* Antônio Leopoldo França Filho
+* Ítalo Ricardo de Andrade Silva
+* Kauê Andrade dos Santos
+* Ruth Oliveira Pereira
 
 ### Objetivos
 * Alguma coisa
