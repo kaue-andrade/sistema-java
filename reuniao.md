@@ -16,8 +16,8 @@
 * Ruth Oliveira Pereira
 
 ### Objetivos
-* Alguma coisa
-* Alguma coisa
+* Diminuir o tempo do aluno na fila
+* Automatizar pedidos
 * Alguma coisa
 
 ### Tópicos Discutidos
