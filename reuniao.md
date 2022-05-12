@@ -30,6 +30,7 @@
 | ----------------------------------------- | ------------ |
 | Criar cadastro para clientes              | @Kauê |
 | Permitir que os clientes realizem pedidos | @Antônio Leopoldo   |
+| Permitir que clientes reservem o pedido| @Antonio Carlos   |
 
 ### Informações Adicionais
 
