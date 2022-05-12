@@ -18,7 +18,7 @@
 ### Objetivos
 * Diminuir o tempo do aluno na fila
 * Automatizar pedidos
-* Alguma coisa
+* Diminuir a desordem da cantina
 
 ### Tópicos Discutidos
 * Como iniciar o programa
