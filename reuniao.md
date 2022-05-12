@@ -29,7 +29,7 @@
 | Ação                                      | Responsável  |
 | ----------------------------------------- | ------------ |
 | Criar cadastro para clientes              | @Kauê |
-| Permitir que os clientes realizem pedidos | @Beltrano    |
+| Permitir que os clientes realizem pedidos | @Antônio Leopoldo   |
 
 ### Informações Adicionais
 
