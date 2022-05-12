@@ -21,9 +21,9 @@
 * Alguma coisa
 
 ### Tópicos Discutidos
-* Alguma coisa
-* Alguma coisa
-* Alguma coisa
+* Como iniciar o programa
+* As funções de cada um
+* Como nosso projeto melhoraria a instituição.
 
 ### Ações a serem tomadas
 | Ação                                      | Responsável  |
