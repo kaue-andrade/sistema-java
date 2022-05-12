@@ -5,7 +5,7 @@
 
 | Data       | Local        |
 | ---------- | ------------ |
-| 12/05/2022 | Alguma coisa |
+| 12/05/2022 | IFBA - _CAMPUS_ EUCLIDES DA CUNHA|
 
 
 ### Participantes
