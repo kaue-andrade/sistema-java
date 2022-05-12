@@ -1,10 +1,10 @@
 # Sistema para a cantina
 
 ### Justificativa
-Alguma coisa aqui
+É perceptível a grande disputa para conseguir conquistar um atendimento, na cantina do IFBa - _Campus_ Euclides da Cunha, pois a carga horaria disponível para o intervalo é curta, e os funcionários são poucos para muitos clientes. De acordo com isso, nota-se que isso gera atrasos, por esse motivo, vamos criar um sistema para diminuir o tempo de espera na fila, de maneira que, os pedidos sejam automatizados.
 
 ### Descrição do produto
-Por meio deste programa iremos facilitar e automatizar os pedidos da cantina do IFBA _campus_ Euclides da Cunha, criaremos um objeto pedido que guarda o nome da pessoa, a turma, o lanche solicitado, a forma de pagamento, caso for dinheiro qual a nota.
+Por meio deste programa iremos facilitar e automatizar os pedidos da cantina do IFBa - _Campus_ Euclides da Cunha, criaremos um objeto pedido que guarda o nome da pessoa, a turma, o lanche solicitado, a forma de pagamento, caso for dinheiro qual a nota.
 No Main será guardado os pedidos através do array multivalorado e o troco.
 ### Especificação do papel de cada membro
 
