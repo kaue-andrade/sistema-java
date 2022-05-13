@@ -30,7 +30,7 @@
 | ----------------------------------------- | ------------ |
 | Criar cadastro para clientes              | @Kauê Andrade|
 | Permitir o funcionário determina os itens | @Ítalo Ricardo|
-| Permitir o funcionário determinar quantos unidades do itens estão disponíveis| @Antônio Leopoldo|
+| Permitir o funcionário determinar quantos unidades dos itens estão disponíveis| @Antônio Leopoldo|
 | Permitir que os clientes realizem pedidos | @Antonio Carlos   |
 | Permitir que clientes reservem o pedido| @Antonio Carlos   |
 | Permitir o cliente fazer o pagamento do pedido| @Ruth Oliveira   |
