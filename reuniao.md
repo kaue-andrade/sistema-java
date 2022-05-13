@@ -35,7 +35,7 @@
 | Permitir que clientes reservem o pedido| @Antonio Carlos   |
 | Permitir o cliente fazer o pagamento do pedido| @Ruth Oliveira   |
 | Criar plano mensal de pagamento| @Antônio Leopoldo   |
-| Criar verificação de quantidade de fichas de acordo com o plano mensal| @Antônio Leopoldo   |
+| Criar verificação de quantidade de fichas de acordo com o plano mensal| @Ítalo Ricardo  |
 | Permitir os funcionários marcarem os pedidos como entregues| @Ruth Oliveira   |
 
 
