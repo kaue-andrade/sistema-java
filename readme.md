@@ -9,7 +9,7 @@ No Main será guardado os pedidos através do array multivalorado e o troco.
 ### Especificação do papel de cada membro
 
 `@Antonio Carlos Borges de Souza`: programador I responsável por verificar e gerenciar o código além de elaborar o _design_ da saída do programa</br>
-`@Antônio Leopoldo França Filho`: </br>
-`@ítalo Ricardo de Andrade Silva`: </br>
+`@Antônio Leopoldo França Filho`: programador II responsável por elaborar, verificar e gerenciar o código</br>
+`@ítalo Ricardo de Andrade Silva`: programador III responsável por verificar e gerenciar o código</br>
 `@Kauê Andrade dos Santos`: programador IV responsável por elaborar, verificar e gerenciar o código</br>
-`@Ruth Oliveira Pereira`: </br>
+`@Ruth Oliveira Pereira`: programadora V responsável por verificar e gerenciar o código</br>
