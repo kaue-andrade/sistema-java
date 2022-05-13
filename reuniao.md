@@ -29,12 +29,14 @@
 | Ação                                      | Responsável  |
 | ----------------------------------------- | ------------ |
 | Criar cadastro para clientes              | @Kauê Andrade|
-| Permitir o funcionário determina os itens | @Kauê Andrade|
+| Permitir o funcionário determina os itens | @Ítalo Ricardo|
 | Permitir o funcionário determinar quantos unidades do itens estão disponíveis| @Antônio Leopoldo|
 | Permitir que os clientes realizem pedidos | @Antônio Leopoldo   |
 | Permitir que clientes reservem o pedido| @Antonio Carlos   |
 | Permitir o cliente fazer o pagamento do pedido| @Ruth Oliveira   |
-| Permitir os funcionários marcarem os pedidos como entregues| @Antônio Leopoldo   |
+| Criar plano mensal de pagamento| @Antônio Leopoldo   |
+| Criar verificação de quantidade de fichas de acordo com o plano mensal| @Antônio Leopoldo   |
+| Permitir os funcionários marcarem os pedidos como entregues| @Ruth Oliveira   |
 
 
 ### Informações Adicionais
