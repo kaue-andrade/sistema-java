@@ -13,7 +13,8 @@
 * Antônio Leopoldo França Filho;
 * Ítalo Ricardo de Andrade Silva;
 * Kauê Andrade dos Santos;
-* Ruth Oliveira Pereira.
+* Ruth Oliveira Pereira;
+* Thais Oliveira Pinho.
 
 ### Objetivos
 * Diminuir o tempo do aluno na fila;
