@@ -40,9 +40,9 @@
 | Permitir o funcionário determinar quantos unidades dos itens estão disponíveis| @Antônio Leopoldo|
 | Permitir que os clientes realizem pedidos | @Kauê Andrade   |
 | Permitir que clientes reservem o pedido| @Antonio Carlos   |
-| Permitir o cliente fazer o pagamento do pedido| @Ruth Oliveira   |
+| Permitir os clientes realizem o pagamento do pedido| @Ruth Oliveira   |
 | Criar plano mensal de pagamento| @Antônio Leopoldo   |
-| Criar verificação de quantidade de fichas de acordo com o plano mensal| @Ítalo Ricardo  |
+| Criar verificação em relação à quantidade de fichas de acordo com o plano mensal| @Ítalo Ricardo  |
 | Permitir os funcionários marcarem os pedidos como entregues| @Ruth Oliveira   |
 
 
