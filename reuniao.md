@@ -25,6 +25,8 @@
 ### Tópicos Discutidos
 * Modo de funcionamento da cantina;
 * Como iniciar o programa;
+* Preços dos alimentos;
+* Disponibilidade dos alimentos;
 * As funções de cada um;
 * Dados essenciais para cadastrar o aluno;
 * Como nosso projeto melhoraria a instituição.
