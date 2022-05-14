@@ -35,7 +35,7 @@
 | Criar cadastro para clientes              | @Kauê Andrade|
 | Permitir o funcionário determina os itens | @Ítalo Ricardo|
 | Permitir o funcionário determinar quantos unidades dos itens estão disponíveis| @Antônio Leopoldo|
-| Permitir que os clientes realizem pedidos | @Antonio Carlos   |
+| Permitir que os clientes realizem pedidos | @Kauê Andrade   |
 | Permitir que clientes reservem o pedido| @Antonio Carlos   |
 | Permitir o cliente fazer o pagamento do pedido| @Ruth Oliveira   |
 | Criar plano mensal de pagamento| @Antônio Leopoldo   |
