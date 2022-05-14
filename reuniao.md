@@ -19,6 +19,7 @@
 ### Objetivos
 * Diminuir o tempo do aluno na fila;
 * Automatizar pedidos;
+* Facilitar o atendimento em relação aos clientes e funcionários;
 * Criar um plano mensal;
 * Diminuir a desordem da cantina.
 
