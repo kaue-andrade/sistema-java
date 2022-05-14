@@ -5,7 +5,8 @@
 
 ### Descrição do produto
 Por meio deste programa iremos facilitar e automatizar os pedidos da cantina do IFBa - _Campus_ Euclides da Cunha, criaremos um objeto pedido que guarda o nome da pessoa, a turma, o lanche solicitado, a forma de pagamento, caso for dinheiro qual a nota, etc.
-No Main será guardado os pedidos através do array multivalorado e o troco.
+No Main será guardado os pedidos através do array multivalorado e o troco. Iremos realizar o cadastro dos alunos. O plano mensal que o aluno poderá pagar será baseado nos dados cadastrais do aluno.
+
 ### Especificação do papel de cada membro
 
 `@Antonio Carlos Borges de Souza`: programador I responsável por verificar e gerenciar o código além de elaborar o _design_ da saída do programa</br>
