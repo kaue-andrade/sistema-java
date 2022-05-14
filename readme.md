@@ -1,16 +1,16 @@
 # Sistema para a cantina
 
-### Justificativa
+### Justificativa</br>
 É perceptível a grande disputa para conseguir conquistar um atendimento, na cantina do IFBa - _Campus_ Euclides da Cunha, pois a carga horaria disponível para o intervalo é curta, e os funcionários são poucos para muitos clientes. De acordo com isso, nota-se que isso gera atrasos, por esse motivo, vamos criar um sistema para diminuir o tempo de espera na fila, de maneira que, os pedidos sejam automatizados. O sistema será completamente _desktop_, sem interações on-line. 
 
-### Descrição do produto
+### Descrição do produto</br>
 Por meio deste programa iremos facilitar e automatizar os pedidos da cantina do IFBa - _Campus_ Euclides da Cunha, criaremos um objeto pedido que guarda o nome da pessoa, a turma, o lanche solicitado, a forma de pagamento, caso for dinheiro qual a nota, etc.
-No Main será guardado os pedidos através do array multivalorado e o troco. Iremos realizar o cadastro dos alunos. O plano mensal que o aluno poderá pagar será baseado nos dados cadastrais do aluno.
+No Main será guardado os pedidos através do array multivalorado e o troco. Iremos realizar o cadastro dos alunos. O plano mensal que o aluno poderá pagar será baseado nos dados cadastrais do aluno. O sistema irá mostrar na tela todas as formas de pagamento que o aluno e as demais pessoas poderão utilizar como forma de pagamento, por exemplo: dinheiro em espécie, PIX, cartão, etc.
 
-### Especificação do papel de cada membro
+### Especificação do papel de cada membro</br>
 
-`@Antonio Carlos Borges de Souza`: programador I responsável por verificar e gerenciar o código além de elaborar o _design_ da saída do programa</br>
-`@Antônio Leopoldo França Filho`: programador II responsável por elaborar, verificar e gerenciar o código</br>
-`@ítalo Ricardo de Andrade Silva`: programador III responsável por verificar e gerenciar o código</br>
-`@Kauê Andrade dos Santos`: programador IV responsável por elaborar, verificar e gerenciar o código</br>
-`@Ruth Oliveira Pereira`: programadora V responsável por verificar e gerenciar o código</br>
+`@Antonio Carlos Borges de Souza`: programador I responsável por verificar e gerenciar o código além de elaborar o _design_ da saída do programa</br></br>
+`@Antônio Leopoldo França Filho`: programador II responsável por elaborar, verificar e gerenciar o código</br></br>
+`@ítalo Ricardo de Andrade Silva`: programador III responsável por verificar e gerenciar o código</br></br>
+`@Kauê Andrade dos Santos`: programador IV responsável por elaborar, verificar e gerenciar o código</br></br>
+`@Ruth Oliveira Pereira`: programadora V responsável por verificar e gerenciar o código</br></br>
