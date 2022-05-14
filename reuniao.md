@@ -22,7 +22,7 @@
 * Criar um plano mensal;
 * Diminuir a desordem da cantina.
 
-### Tópicos Discutidos
+### Tópicos discutidos
 * Modo de funcionamento da cantina;
 * Como iniciar o programa;
 * Preços dos alimentos;
