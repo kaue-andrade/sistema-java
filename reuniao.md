@@ -19,11 +19,14 @@
 ### Objetivos
 * Diminuir o tempo do aluno na fila;
 * Automatizar pedidos;
+* Criar um plano mensal;
 * Diminuir a desordem da cantina.
 
 ### Tópicos Discutidos
+* Modo de funcionamento da cantina;
 * Como iniciar o programa;
 * As funções de cada um;
+* Dados essenciais para cadastrar o aluno;
 * Como nosso projeto melhoraria a instituição.
 
 ### Ações a serem tomadas
