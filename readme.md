@@ -12,5 +12,5 @@ No Main será guardado os pedidos através do array multivalorado, o troco e out
 `@Antonio Carlos Borges de Souza`: programador I responsável por verificar e gerenciar o código além de elaborar o _design_ da saída do programa.</br></br>
 `@Antônio Leopoldo França Filho`: programador II responsável por elaborar, verificar e gerenciar o código.</br></br>
 `@ítalo Ricardo de Andrade Silva`: programador III responsável por verificar e gerenciar o código.</br></br>
-`@Kauê Andrade dos Santos`: programador IV responsável por elaborar, verificar e gerenciar o código.</br></br>
+`@Kauê Andrade dos Santos`: líder e programador IV responsável por elaborar, verificar e gerenciar o código.</br></br>
 `@Ruth Oliveira Pereira`: programadora V responsável por verificar e gerenciar o código.</br></br>
