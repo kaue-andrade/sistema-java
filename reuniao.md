@@ -32,6 +32,10 @@
 * Dados essenciais para cadastrar o aluno;
 * Como nosso projeto melhoraria a instituição.
 
+div align="center"
+img src="[https://desblogada.files.wordpress.co...](https://i.imgur.com/ivm12rp.png)" width="0px" /
+/div
+
 ### Ações a serem tomadas
 | Ação                                      | Responsável  |
 | ----------------------------------------- | ------------ |
