@@ -32,7 +32,17 @@
 * Dados essenciais para cadastrar o aluno;
 * Como nosso projeto melhoraria a instituição.
 
+### Preços dos alimentos e bebidas
+
 ![](https://i.imgur.com/ivm12rp.png)
+
+### Perguntas e respostas
+
+**Como você imagina que o programa irá automatizar o ambiente de trabalho?** Irá diminuir o tempo de espera pelo almoço, já que facilitará os pedidos deixando os funcionários livres para fazer os almoços. </br> 
+
+**Você acha que a criação desse  programa é importante? Por quê?** </br> Pode facilitar na para agilizar os pedidos.
+
+**Qual a sua maior dificuldade no seu ambiente de trabalho?** Os dias de quarta e quinta feira por conta da grande quantidade de pedidos para o almoço, tanto de alunos e servidores.
 
 ### Ações a serem tomadas
 | Ação                                      | Responsável  |
