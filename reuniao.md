@@ -32,9 +32,7 @@
 * Dados essenciais para cadastrar o aluno;
 * Como nosso projeto melhoraria a instituição.
 
-div align="center"
-img src="https://i.imgur.com/ivm12rp.png" width="0px" /
-/div
+![](https://i.imgur.com/ivm12rp.png)
 
 ### Ações a serem tomadas
 | Ação                                      | Responsável  |
