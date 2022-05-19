@@ -44,7 +44,9 @@
 
 **Qual a sua maior dificuldade no seu ambiente de trabalho?** </br> Os dias de quarta e quinta feira por conta da grande quantidade de pedidos para o almoço, tanto de alunos e servidores.
 
-### Descrição da reunião
+### Reunião e conclusão
+
+Ao consulta nossos clientes, pessoal que fica na cantina, fomos informados, logo de imediato, que uma das maiores dificuldades está relacionado ao gerenciamento do almoço, isso porque não há um sistema eficiente, na cantina, capaz de gerenciar o preparo e a venda dos alimentos. A partir disso, pensamos, após a reunião, em elaborar um algoritmo que auxilie tanto no controle de vendas, quando no gerenciamento dos almoços na cantina. Assim, haverá, após a implementação do nosso sistema, uma maior flexibilidade nas vendas e nas reservas, visando reduzir o tempo de espera e promover o controle de vendas do estabelecimento em questão.
 
 ### Ações a serem tomadas
 | Ação                                      | Responsável  |
