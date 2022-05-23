@@ -5,7 +5,8 @@ public class CantinaMain {
 
         Scanner ler = new Scanner(System.in);
 
-        Produto c1 = new Produto();
+        //Produto c1 = new Produto();
+        PlanoMensal a1 = new PlanoMensal();
 
         System.out.println("=-=-= Cantina - IFBA =-=-=");
 
@@ -47,8 +48,10 @@ public class CantinaMain {
 
             System.out.println("\nPLANO MENSAL IFBA: 8 fichas por R$ 72");
 
-            System.out.print("\nQuantidade de fichas do cliente: ");
-            int fichas = ler.nextInt();
+            System.out.print("\nNome do cliente: ");
+            String aluno = ler.nextLine();
+
+            int fichas = a1.bancoDados(aluno);
 
             if (fichas == 0) {
                 System.out.println("\nO cliente tem 0 fichas! Não é possível efetuar a compra");
@@ -103,8 +106,9 @@ public class CantinaMain {
 
                 }
             }
+
             if (fichas != 0){
-                System.out.println("\nAgora o cliente possui " + (fichas - 1) + " fichas.");
+                System.out.println("\nAgora o cliente possui " + (a1.bancoDados(aluno) - 1) + " fichas. Faça a modificação no banco de dados.");
                 System.out.println("\nCompra finalizada!");
             }
         }
