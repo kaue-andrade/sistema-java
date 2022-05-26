@@ -8,16 +8,10 @@
 
 
 ### O que estava planejado
-| Atividade                                                    | Atribuição                         |
-| ------------------------------------------------------------ | ---------------------------------- |
-| Mussum Ipsum, cacilds vidis litro abertis. Si num tem leite então bota uma pinga aí cumpadi! | `@pessoa1`, `@pessoa2`, `@pessoa3` |
-| Mussum Ipsum, cacilds vidis litro abertis. Si num tem leite então bota uma pinga aí cumpadi! | `@todos`                           |
+• Planejava-se um sistema para garantir a organização da Cantina do IFBa no campus de Euclides da Cunha (BA), tendo como principal objetivo a automatização dos pedidos.
 
 ### O que foi feito
-| Atividade                                                    | Atribuição                         |
-| ------------------------------------------------------------ | ---------------------------------- |
-| Mussum Ipsum, cacilds vidis litro abertis. Si num tem leite então bota uma pinga aí cumpadi! | `@pessoa1`, `@pessoa2`, `@pessoa3` |
-| Mussum Ipsum, cacilds vidis litro abertis. Si num tem leite então bota uma pinga aí cumpadi! | `@todos`                           |
+• Foram concluídas as partes iniciais do projeto (base). Sobre a construção do sistema, se faz necessária, a finalização de mais classes: taís quais estão relacionadas aos funcionários, cardápio... e entre outras, que serão estabelecidas durante a programação e visão de necessidade do cliente (cantina), para que dessa forma, haja um bom funcionamento. Nessa mesma percepção, pode-se afirmar a complexidade explícita do projeto, que está em andamento constante e positivo, tendo cerca de 40% de rendimento até a data de registro desse relatório.
 
 ### O que não foi feito
 * Mussum Ipsum, cacilds vidis litro abertis. Si num tem leite então bota uma pinga aí cumpadi!
