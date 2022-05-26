@@ -13,7 +13,7 @@ public class CantinaMain {
     public static void main(String[] args) {
 
         Scanner ler = new Scanner(System.in);
-        
+
         Produtos p1 = new Produtos();
         PlanoMensal a1 = new PlanoMensal();
 
