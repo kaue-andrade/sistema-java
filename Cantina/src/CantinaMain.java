@@ -13,14 +13,11 @@ public class CantinaMain {
     public static void main(String[] args) {
 
         Scanner ler = new Scanner(System.in);
-
-        Imagem i1 = new Imagem();
+        
         Produtos p1 = new Produtos();
         PlanoMensal a1 = new PlanoMensal();
 
         System.out.println("=-=-= Cantina - IFBA =-=-=");
-
-        i1.Imagem();
 
         p1.bancoProdutos();
 
