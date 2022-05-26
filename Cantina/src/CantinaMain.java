@@ -19,8 +19,9 @@ public class CantinaMain {
 
         System.out.println("=-=-= Cantina - IFBA =-=-=");
 
-        p1.bancoProdutos();
+        //p1.bancoProdutos();
 
+        a1.bancoMensal();
         //a1.bancoMensal();
 
     }

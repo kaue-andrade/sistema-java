@@ -63,20 +63,6 @@ public class Produtos {
 
         Set<String> chaves = produtos.keySet();
 
-        while (contador.get() < num){
-            produtos.forEach((pedido, value) -> {
-
-                System.out.println("O que o cliente deseja? ");
-                pedido = ler.nextLine();
-
-                total.set(total.get() + value);
-
-                System.out.println(total.get());
-
-                contador.getAndIncrement();
-            });
-        }
-
 
         System.out.print("TOTAL A PAGAR: " + total + "\n");
 

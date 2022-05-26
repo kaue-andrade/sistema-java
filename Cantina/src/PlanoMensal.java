@@ -39,7 +39,7 @@ public class PlanoMensal {
             }
 
             if (confirmar_pag == 1) {
-                System.out.print("\nDINHEIRO EM ESPÉCIE - 1 \nPIX - 2 \n\nForma de pagamento:");
+                System.out.print("\nDINHEIRO EM ESPÉCIE - 1 \nPIX - 2 \n\nForma de pagamento: ");
                 int novo_pagamento = ler.nextInt();
 
                 if (novo_pagamento == 1) {
