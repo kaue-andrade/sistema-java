@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Produtos {
     public void bancoProdutos() {
 
-        //int temp = 1;
+        int confirmar = 0;
         double total = 0.0;
 
         Scanner ler = new Scanner(System.in);
@@ -19,17 +19,22 @@ public class Produtos {
 
         System.out.println();
 
-        for (int temp = 1; temp == 1){
+         while (confirmar != 1){
 
-            System.out.print("O que o cliente deseja comprar (SAIR - 1)? ");
+            System.out.print("O que o cliente deseja comprar? ");
             String prod = ler.nextLine();
 
-            total = total + produtos.get(prod);
-
-            System.out.print("\n(CONTINUAR - 1) (SAIR - 2): ");
-            temp = ler.nextInt();
+            System.out.println();
+            System.out.println(total = total + produtos.get(prod));
 
             System.out.println();
+
+            System.out.print("Deseja adicionar mais algo? (SIM - 1) (NÃO - 2)");
+            confirmar = ler.nextInt();
+
+            if (confirmar == 1){
+                break;
+            }
         }
 
         System.out.print("TOTAL A PAGAR: " + total + "\n");
