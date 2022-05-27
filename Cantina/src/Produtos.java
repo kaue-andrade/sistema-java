@@ -63,11 +63,13 @@ public class Produtos {
         //Simulação de pedidos do cliente
 
         System.out.println("Simulação: ");
-        System.out.println("Valor do Trident: " + produtos.get("Trident"));
+        System.out.println("\nValor do Trident: " + produtos.get("Trident"));
         System.out.println("Valor do Sopa 500 ml: " + produtos.get("Sopa 500 ml"));
         System.out.println("Valor do Brigadeiro: " + produtos.get("Brigadeiro"));
 
-        System.out.print("TOTAL A PAGAR: " + total + "\n");
+        total = total + produtos.get("Trident") + produtos.get("Sopa 500 ml") + produtos.get("Brigadeiro");
+
+        System.out.print("\nTOTAL A PAGAR: " + total + "\n");
 
         System.out.print("\nDINHEIRO EM ESPÉCIE - 1 \nPIX - 2 \nPLANO MENSAL - 3 \n\nForma de pagamento: ");
         pagamento = ler.nextInt();
@@ -86,7 +88,7 @@ public class Produtos {
                 System.out.println("\nTroco: R$ " + troco);
                 System.out.println("\nCompra finalizada!");
             } else{
-                System.out.println("Sem troco. Compra finalizada!");
+                System.out.println("\nSem troco. Compra finalizada!");
             }
         }
 
@@ -115,6 +117,45 @@ public class Produtos {
             System.out.print("\nNome do cliente: ");
             String aluno = ler.nextLine();
         }*/
+    }
 
+    public double getDinheiro() {
+        return dinheiro;
+    }
+
+    public void setDinheiro(double dinheiro) {
+        this.dinheiro = dinheiro;
+    }
+
+    public double getTotal() {
+        return total;
+    }
+
+    public void setTotal(double total) {
+        this.total = total;
+    }
+
+    public double getTroco() {
+        return troco;
+    }
+
+    public void setTroco(double troco) {
+        this.troco = troco;
+    }
+
+    public int getPagamento_efetuado() {
+        return pagamento_efetuado;
+    }
+
+    public void setPagamento_efetuado(int pagamento_efetuado) {
+        this.pagamento_efetuado = pagamento_efetuado;
+    }
+
+    public int getPagamento() {
+        return pagamento;
+    }
+
+    public void setPagamento(int pagamento) {
+        this.pagamento = pagamento;
     }
 }
