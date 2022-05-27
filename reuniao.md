@@ -53,7 +53,7 @@ Ao consulta nossos clientes, pessoal que fica na cantina, fomos informados, logo
 | ----------------------------------------- | ------------ |
 | Criar cadastro para clientes              | @Kauê Andrade|
 | Permitir o funcionário determina os itens | @Ítalo Ricardo|
-| Permitir o funcionário determinar quantos unidades dos itens estão disponíveis| @Antônio Leopoldo|
+| Permitir o funcionário determinar quantas unidades dos itens estão disponíveis| @Antônio Leopoldo|
 | Permitir que os clientes realizem pedidos | @Kauê Andrade   |
 | Permitir que clientes reservem o pedido| @Antonio Carlos   |
 | Permitir os clientes realizem o pagamento do pedido| @Ruth Oliveira   |
