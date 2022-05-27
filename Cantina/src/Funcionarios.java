@@ -19,5 +19,10 @@ public class Funcionarios {
 
         System.out.println("Nome do funcionário: " + funcionario.get(id));
 
+
+
+    }
+
+    public Funcionarios() {
     }
 }

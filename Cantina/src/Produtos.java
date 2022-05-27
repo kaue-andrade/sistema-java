@@ -1,18 +1,22 @@
 import java.util.Set;
 import java.util.HashMap;
 import java.util.Scanner;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.atomic.AtomicReference;
 
 public class Produtos {
+
+    private double dinheiro;
+    private double total;
+    private double troco;
+    private int pagamento_efetuado;
+    private int pagamento;
+
     public void bancoProdutos() {
 
         Scanner ler = new Scanner(System.in);
 
         HashMap<String, Double> produtos = new HashMap<String, Double>();
 
-        AtomicInteger contador = new AtomicInteger();
-        AtomicReference<Double> total = new AtomicReference<>(0.0);
+        //Lista de alimentos para a simulação
 
         produtos.put("Almoço", 9.00);
         produtos.put("Bala Ice kiss", 0.10);
@@ -56,37 +60,44 @@ public class Produtos {
         
         System.out.println();
 
-        System.out.print("Quantidade de pedidos: ");
-        int num = ler.nextInt();
+        //Simulação de pedidos do cliente
 
-        System.out.println();
-
-        Set<String> chaves = produtos.keySet();
-
+        System.out.println("Simulação: ");
+        System.out.println("Valor do Trident: " + produtos.get("Trident"));
+        System.out.println("Valor do Sopa 500 ml: " + produtos.get("Sopa 500 ml"));
+        System.out.println("Valor do Brigadeiro: " + produtos.get("Brigadeiro"));
 
         System.out.print("TOTAL A PAGAR: " + total + "\n");
 
         System.out.print("\nDINHEIRO EM ESPÉCIE - 1 \nPIX - 2 \nPLANO MENSAL - 3 \n\nForma de pagamento: ");
-        int pagamento = ler.nextInt();
+        pagamento = ler.nextInt();
+
+        //Se pagamento receber 1
 
         if (pagamento == 1) {
             System.out.println("\n=-=-= FORMA DE PAGAMENTO: DINHEIRO EM ESPÉCIE =-=-=");
 
             System.out.print("\nQuantia: R$ ");
-            double dinheiro = ler.nextFloat();
+            dinheiro = ler.nextDouble();
 
-            double troco = dinheiro - total.get();
+            if (dinheiro > total) {
 
-            System.out.println("\nTroco: R$ " + troco);
-            System.out.println("\nCompra finalizada!");
+                double troco = dinheiro - total;
+                System.out.println("\nTroco: R$ " + troco);
+                System.out.println("\nCompra finalizada!");
+            } else{
+                System.out.println("Sem troco. Compra finalizada!");
+            }
         }
+
+        //Se pagamento receber 2
 
         if (pagamento == 2) {
             System.out.println("\n=-=-=FORMA DE PAGAMENTO: PIX=-=-=");
 
             System.out.println("\nPIX DA CANTINA IFBA: pixcantinaifba@gmail.com\n");
 
-            int pagamento_efetuado = 2;
+            pagamento_efetuado = 2;
 
             while (pagamento_efetuado != 1) {
                 System.out.print("Pagamento efetuado (SIM - 1) (NÃO - 2)? ");
@@ -104,8 +115,6 @@ public class Produtos {
             System.out.print("\nNome do cliente: ");
             String aluno = ler.nextLine();
         }*/
-
-
 
     }
 }
