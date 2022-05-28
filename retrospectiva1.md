@@ -28,12 +28,12 @@
 | Foi incrementado no sistema da cantina, também, um sistema que permite que o funcionário selecione a forma de pagamento: PIX ou avista.   | `@Kauê`  |
 
 ### O que não foi feito
-• Sobre a construção do sistema, se faz necessária, ainda, a finalização de mais classes, tal como cardápio... entre outras classes, as quais serão estabelecidas durante a programação e visão de necessidade do cliente (cantina), com a finalidade que haja um bom funcionamento do sistema em pauta. Nessa mesma percepção, pode-se afirmar a complexidade explícita do projeto, que está em andamento constante e positivo, tendo cerca de 40% de rendimento até a data de registro desse relatório. </b>
-• Não foi feito, ainda, a implementação de linhas de código que permitam que o funcionário liste as solicitações por linhas de execução. </b>
-• É preciso implementar no sistema da cantina, ainda, uma forma permitam com que os usuários reservem os seus almoços, conforme as suas próprias exigências. </b>
-• É preciso, ainda, criar linhas de código que permitam que os funcionários consultem dados referente as quantidades e os produtos alimentícios ainda disponíveis para consumo, de modo a evitar a venda de produtos que não estão em estoque. </b>
-• faz-se necessário, também, criar uma forma para permitir que os funcionários destaquem os pedidos como entregues. </b>
-• Apesar de já ter sido iniciado, é preciso completar o CRUD. </b>
+• Sobre a construção do sistema, se faz necessária, ainda, a finalização de mais classes, tal como cardápio... entre outras classes, as quais serão estabelecidas durante a programação e visão de necessidade do cliente (cantina), com a finalidade que haja um bom funcionamento do sistema em pauta. Nessa mesma percepção, pode-se afirmar a complexidade explícita do projeto, que está em andamento constante e positivo, tendo cerca de 40% de rendimento até a data de registro desse relatório. </br>
+• Não foi feito, ainda, a implementação de linhas de código que permitam que o funcionário liste as solicitações por linhas de execução. </br>
+• É preciso implementar no sistema da cantina, ainda, uma forma permitam com que os usuários reservem os seus almoços, conforme as suas próprias exigências. </br>
+• É preciso, ainda, criar linhas de código que permitam que os funcionários consultem dados referente as quantidades e os produtos alimentícios ainda disponíveis para consumo, de modo a evitar a venda de produtos que não estão em estoque. </br>
+• faz-se necessário, também, criar uma forma para permitir que os funcionários destaquem os pedidos como entregues. </br>
+• Apesar de já ter sido iniciado, é preciso completar o CRUD. </br>
 > **Nota:** Levante o que não foi realizado e o seu respectivo impedimento.
 
 ### Planejado para próxima iteração
