@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class Funcionarios {
     public void bancoFuncionario() {
+
         Scanner ler = new Scanner(System.in);
 
         HashMap<Integer, String> funcionario = new HashMap<Integer, String>();
@@ -18,8 +19,6 @@ public class Funcionarios {
         System.out.println();
 
         System.out.println("Nome do funcionário: " + funcionario.get(id));
-
-
 
     }
 

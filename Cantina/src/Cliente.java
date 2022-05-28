@@ -9,6 +9,12 @@ public class Cliente {
         this.fone = fone;
     }
 
+    public static void set(int indice, int novo_cliente) {
+    }
+
+    public static void set(Cliente cliente) {
+    }
+
     public int getCpf() {
         return cpf;
     }
