@@ -87,6 +87,15 @@ public class Produtos {
                 double troco = dinheiro - total;
                 System.out.println("\nTroco: R$ " + troco);
                 System.out.println("\nCompra finalizada!");
+            } else if (dinheiro < total){
+                System.out.println("Falta dinheiro para completar a compra.");
+
+                System.out.print("\nNova quantia: R$ ");
+                dinheiro = ler.nextDouble();
+
+                double troco = dinheiro - total;
+                System.out.println("\nTroco: R$ " + troco);
+                System.out.println("\nCompra finalizada!");
             } else{
                 System.out.println("\nSem troco. Compra finalizada!");
             }

@@ -2,9 +2,12 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class Funcionarios {
-    public void bancoFuncionario() {
 
-        Scanner ler = new Scanner(System.in);
+    Scanner ler = new Scanner(System.in);
+
+    int id = ler.nextInt();
+
+    public void bancoFuncionario() {
 
         HashMap<Integer, String> funcionario = new HashMap<Integer, String>();
 
@@ -14,7 +17,6 @@ public class Funcionarios {
         funcionario.put(3458, "André José da Silva Santos");
 
         System.out.print("\nID do funcionário: ");
-        int id = ler.nextInt();
 
         System.out.println();
 
@@ -22,6 +24,19 @@ public class Funcionarios {
 
     }
 
-    public Funcionarios() {
+    public Scanner getLer() {
+        return ler;
+    }
+
+    public void setLer(Scanner ler) {
+        this.ler = ler;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }
