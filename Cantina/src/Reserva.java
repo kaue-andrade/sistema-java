@@ -2,9 +2,9 @@ public class Reserva {
 
     private int numero;
     private String cliente;
-    private int cpf;
+    private String cpf;
 
-    public Reserva(int numero, String cliente, int cpf) {
+    public Reserva() {
         this.numero = numero;
         this.cliente = cliente;
         this.cpf = cpf;
@@ -26,11 +26,11 @@ public class Reserva {
         this.cliente = cliente;
     }
 
-    public int getCpf() {
+    public String getCpf() {
         return cpf;
     }
 
-    public void setCpf(int cpf) {
+    public void setCpf(String cpf) {
         this.cpf = cpf;
     }
 }

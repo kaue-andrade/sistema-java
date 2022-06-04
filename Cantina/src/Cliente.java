@@ -1,9 +1,9 @@
 public class Cliente {
-    private int cpf;
+    private String cpf;
     private String nome;
     private String fone;
 
-    public Cliente(int cpf, String nome, String fone) {
+    public Cliente() {
         this.cpf = cpf;
         this.nome = nome;
         this.fone = fone;
@@ -15,11 +15,11 @@ public class Cliente {
     public static void set(Cliente cliente) {
     }
 
-    public int getCpf() {
+    public String getCpf() {
         return cpf;
     }
 
-    public void setCpf(int cpf) {
+    public void setCpf(String cpf) {
         this.cpf = cpf;
     }
 

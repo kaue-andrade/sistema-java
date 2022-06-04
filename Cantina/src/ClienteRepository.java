@@ -18,7 +18,7 @@ public class ClienteRepository {
     public ArrayList<Cliente> getAll(){
         return repository;
     }
-    public Cliente getOne(int cpf){
+    public Cliente getOne(String cpf){
         for (Cliente cliente:repository) {
             if(cliente.getCpf() == cpf){
                 return cliente;
