@@ -21,7 +21,7 @@ public class PlanoMensal {
         alunos.put("Antônio Leopoldo França Filho", 6);
         alunos.put("Ítalo Ricardo de Andrade Silva", 6);
 
-        System.out.print("\nNome do aluno: ");
+        System.out.print("\nNome do aluno (os nomes precisam estar na lista da classe PlanoMensal): ");
         aluno = ler.nextLine();
 
         System.out.println("\nNúmero de fichas do aluno " + aluno + ": " + alunos.get(aluno));
