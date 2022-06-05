@@ -16,6 +16,8 @@ public class Funcionarios {
         funcionario.put(9658, "Carlos Ferreira Andrade");
         funcionario.put(3458, "André José da Silva Santos");
 
+        System.out.println("\nAntigo sistema dos funcionários (Simulação): ");
+
         System.out.print("\nID do funcionário: ");
 
         System.out.println();

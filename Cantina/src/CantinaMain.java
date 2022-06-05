@@ -13,6 +13,7 @@ public class CantinaMain {
 
         Cliente c1 = new Cliente();
         Reserva r1 = new Reserva();
+        //Funcionarios f1 = new Funcionarios();
         Produtos p1 = new Produtos();
         PlanoMensal a1 = new PlanoMensal();
 
@@ -20,8 +21,10 @@ public class CantinaMain {
 
         while (verificador != 2) {
 
-            System.out.print("\nAdicionar cliente - 1 \nAdicionar pedidos (NÃO CONCLUÍDO)\nReservar pedido - 3\n\nO que deseja fazer? ");
+            System.out.print("\nAdicionar cliente - 1 \nAdicionar pedidos - (NÃO CONCLUÍDO - FASE DE SIMULAÇÃO)\nReservar pedido - 3\n\nO que deseja fazer? ");
             int desejo = ler.nextInt();
+
+            System.out.println();
 
             if (desejo == 1) {
 
@@ -50,8 +53,9 @@ public class CantinaMain {
 
         }
 
-        p1.bancoProdutos();
+        //f1.bancoFuncionario();
 
+        p1.bancoProdutos();
 
         a1.bancoMensal();
         //a1.bancoMensal();
