@@ -1,24 +1,16 @@
-public class Reserva {
+public class NovoFuncionario {
 
-    private int numero;
     private String cliente;
     private String cpf;
+    private int id;
 
-    public Reserva() {
-        this.numero = numero;
+    public NovoFuncionario() {
         this.cliente = cliente;
         this.cpf = cpf;
+        this.id = id;
     }
 
-    public static void set(Reserva reserva) {
-    }
-
-    public int getNumero() {
-        return numero;
-    }
-
-    public void setNumero(int numero) {
-        this.numero = numero;
+    public static void set(NovoFuncionario funcionario) {
     }
 
     public String getCliente() {
@@ -35,5 +27,13 @@ public class Reserva {
 
     public void setCpf(String cpf) {
         this.cpf = cpf;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }

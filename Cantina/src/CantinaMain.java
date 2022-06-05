@@ -12,6 +12,7 @@ public class CantinaMain {
         //Instanciando objetos
 
         Cliente c1 = new Cliente();
+        NovoFuncionario nf1 = new NovoFuncionario();
         Reserva r1 = new Reserva();
         //Funcionarios f1 = new Funcionarios();
         Produtos p1 = new Produtos();
@@ -21,7 +22,7 @@ public class CantinaMain {
 
         while (verificador != 2) {
 
-            System.out.print("\nAdicionar cliente - 1 \nAdicionar pedidos - (NÃO CONCLUÍDO - FASE DE SIMULAÇÃO)\nReservar pedido - 3\n\nO que deseja fazer? ");
+            System.out.print("\nAdicionar cliente - 1 \nAdicionar funcionário - 2 \nReservar pedido - 3\nAdicionar pedidos - (NÃO CONCLUÍDO - FASE DE SIMULAÇÃO)\n\nO que deseja fazer? ");
             int desejo = ler.nextInt();
 
             System.out.println();
@@ -37,6 +38,17 @@ public class CantinaMain {
 
             }
 
+            if (desejo == 2) {
+
+                System.out.print("Digite o nome do cliente: ");
+                nf1.setCliente(ler.next());
+                System.out.print("Digite o número do CPF: ");
+                nf1.setCpf(ler.next());
+                System.out.print("Digite o ID: ");
+                nf1.setId(ler.nextInt());
+
+            }
+
             if (desejo == 3) {
 
                 System.out.print("Digite o número da reversa: ");
@@ -47,6 +59,8 @@ public class CantinaMain {
                 r1.setCpf(ler.next());
 
             }
+
+            System.out.println();
 
             System.out.print("Deseja fazer mais alguma alteração (SIM - 1) (NÃO - 2)? ");
             verificador = ler.nextInt();

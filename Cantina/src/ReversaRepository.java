@@ -24,5 +24,18 @@ public class ReversaRepository {
         }
         return null;
     }
+
+    //Teste de alteração
+
+    public void alterar(Reserva reserva){
+
+        Reserva.set(reserva);
+
+    }
+
+    public void deletar(Reserva reserva){
+        repository.remove(reserva);
+    }
+
 }
 
