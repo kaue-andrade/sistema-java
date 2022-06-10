@@ -9,10 +9,19 @@
 Por meio deste programa iremos facilitar e automatizar os pedidos da cantina do IFBa - _Campus_ Euclides da Cunha, criaremos um objeto pedido que guarda o nome da pessoa, a turma, o lanche solicitado, a forma de pagamento, caso for dinheiro qual a nota, etc.
 No Main será guardado os pedidos através do array multivalorado, o troco e outras informações e funcionalidades pertinentes para que o clientes e os funcionários realizem o atendimento com sucesso. Iremos realizar o cadastro dos alunos. O plano mensal que o aluno poderá pagar será baseado nos dados cadastrais do aluno. O sistema irá mostrar na tela todas as formas de pagamento que o aluno e as demais pessoas poderão utilizar como forma de pagamento, por exemplo: dinheiro em espécie, PIX, cartão, etc.
 
-### Especificação do papel de cada membro</br>
+### Especificação do papel de cada membro
+| Membro                                                    | Papel                         |
+| ------------------------------------------------------------ | ---------------------------------- |
+| @Antonio Carlos Borges de Souza | Programador I responsável por verificar e gerenciar o código além de elaborar o _design_ e os comentários do programa |
+| @Antônio Leopoldo França Filho | Programador II responsável por elaborar, verificar e gerenciar o código                           |
+| @Ítalo Ricardo de Andrade Silva | Programador III responsável por verificar e gerenciar o código                           |
+| @Kauê Andrade dos Santos | Líder e programador IV responsável por elaborar, verificar e gerenciar o código                           |
+| @Ruth Oliveira Pereira | Programadora V responsável por verificar e gerenciar o código                           |
 
-`@Antonio Carlos Borges de Souza`: programador I responsável por verificar e gerenciar o código além de elaborar o _design_ da saída do programa - antonio2306carlos@gmail.com</br></br>
-`@Antônio Leopoldo França Filho`: programador II responsável por elaborar, verificar e gerenciar o código - LeoGamesPlay200@gmail.com </br></br>
-`@Ítalo Ricardo de Andrade Silva`: programador III responsável por verificar e gerenciar o código - antonio2306carlos@gmail.com </br></br>
-`@Kauê Andrade dos Santos`: líder e programador IV responsável por elaborar, verificar e gerenciar o código - kauedd22@gmail.com</br></br>
-`@Ruth Oliveira Pereira`: programadora V responsável por verificar e gerenciar o código - blesedrutholiver@gmail.com</br></br>
+### E-mails dos desenvolvedores</br>
+
+Antonio Carlos Borges de Souza - antonio2306carlos@gmail.com</br>
+Antônio Leopoldo França Filho - LeoGamesPlay200@gmail.com</br>
+Ítalo Ricardo de Andrade Silva - italogod96@gmail.com</br>
+Kauê Andrade dos Santos - kauedd22@gmail.com</br>
+Ruth Oliveira Pereira - blesedrutholiver@gmail.com</br>
