@@ -20,7 +20,7 @@ No Main será guardado os pedidos através do array multivalorado, o troco e out
 
 ### E-mails dos desenvolvedores</br>
 
-Antonio Carlos Borges de Souza- antonio2306carlos@gmail.com</br>
+Antonio Carlos Borges de Souza - antonio2306carlos@gmail.com</br>
 Antônio Leopoldo França Filho - LeoGamesPlay200@gmail.com</br>
 Ítalo Ricardo de Andrade Silva - italogod96@gmail.com</br>
 Kauê Andrade dos Santos - kauedd22@gmail.com</br>
