@@ -1,10 +1,12 @@
-import java.util.;
+import java.util.Scanner;
 import java.util.ArrayList;
 
 public class ReservaRepository {
 
     int posicao;
-    int novo_cpf;
+    String novo_cpf;
+
+    Scanner ler = new Scanner(System.in);
 
     private ArrayList<Reserva> repository;
 
@@ -33,9 +35,13 @@ public class ReservaRepository {
 
     public void alterar(Reserva reserva){
 
+        System.out.print("\nPosição que deseja alterar: ");
+        posicao = ler.nextInt();
 
+        System.out.print("\nPosição que deseja alterar: ");
+        novo_cpf = ler.next();
 
-        Reserva.set(reserva);
+        repository.get(posicao).set(novo_cpf);
 
     }
 

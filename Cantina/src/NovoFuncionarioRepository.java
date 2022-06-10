@@ -1,6 +1,12 @@
+import java.util.Scanner;
 import java.util.ArrayList;
 
 public class NovoFuncionarioRepository {
+
+    int posicao;
+    String novo_cpf;
+
+    Scanner ler = new Scanner(System.in);
 
     private ArrayList<NovoFuncionario> repository;
 
@@ -25,11 +31,17 @@ public class NovoFuncionarioRepository {
         return null;
     }
 
-    //Teste de alteração
+    //Alteração no ArrayList
 
     public void alterar(NovoFuncionario funcionario){
 
-        NovoFuncionario.set(funcionario);
+        System.out.print("\nPosição que deseja alterar: ");
+        posicao = ler.nextInt();
+
+        System.out.print("\nPosição que deseja alterar: ");
+        novo_cpf = ler.next();
+
+        repository.get(posicao).set(novo_cpf);
 
     }
 

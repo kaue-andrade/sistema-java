@@ -3,8 +3,8 @@ import java.util.ArrayList;
 
 public class ClienteRepository {
     private ArrayList<Cliente> repository;
-    private int indice;
-    private String novo_cliente;
+    int posicao;
+    String novo_cpf;
 
     Scanner ler = new Scanner(System.in);
 
@@ -31,7 +31,13 @@ public class ClienteRepository {
 
     public void alterar(Cliente cliente){
 
-        Cliente.set(cliente);
+        System.out.print("\nPosição que deseja alterar: ");
+        posicao = ler.nextInt();
+
+        System.out.print("\nPosição que deseja alterar: ");
+        novo_cpf = ler.next();
+
+        repository.get(posicao).set(novo_cpf);
 
     }
 

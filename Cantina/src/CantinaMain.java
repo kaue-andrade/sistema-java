@@ -41,7 +41,7 @@ public class CantinaMain {
             if (desejo == 2) {
 
                 System.out.print("Digite o nome do cliente: ");
-                nf1.setCliente(ler.next());
+                nf1.setFuncionario(ler.next());
                 System.out.print("Digite o número do CPF: ");
                 nf1.setCpf(ler.next());
                 System.out.print("Digite o ID: ");

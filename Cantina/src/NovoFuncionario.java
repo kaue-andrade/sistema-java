@@ -10,7 +10,7 @@ public class NovoFuncionario {
         this.id = id;
     }
 
-    public static void set(NovoFuncionario funcionario) {
+    public static void set(String funcionario) {
     }
 
     public String getFuncionario() {

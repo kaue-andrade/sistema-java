@@ -12,7 +12,7 @@ public class Cliente {
     public static void set(int indice, int novo_cliente) {
     }
 
-    public static void set(Cliente cliente) {
+    public static void set(String cliente) {
     }
 
     public String getCpf() {
