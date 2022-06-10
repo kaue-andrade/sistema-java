@@ -37,8 +37,8 @@
 > **Nota:** Levante o que não foi realizado e o seu respectivo impedimento.
 
 ### Planejado para próxima iteração
-* Corrigir algumas falhas e erros que surgiram ao longo da construção do sistema 
-* Adicionar novas funcionalidade
+* Corrigir algumas falhas e erros que surgiram ao longo da construção do sistema;
+* Adicionar novas funcionalidades.
 
 ### Lições aprendidas
 * Foi aprendido, ao longo desse período de rendimento equivalente a 40% do projeto a, principalmente, trabalhar em equipe, de modo a construir laços de companheirismo que trabalhem em prol de uma causa.
