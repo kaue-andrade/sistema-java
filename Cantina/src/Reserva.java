@@ -1,12 +1,12 @@
 public class Reserva {
 
     private int numero;
-    private String cliente;
+    private String funcionario;
     private String cpf;
 
     public Reserva() {
         this.numero = numero;
-        this.cliente = cliente;
+        this.funcionario = funcionario;
         this.cpf = cpf;
     }
 
@@ -21,12 +21,12 @@ public class Reserva {
         this.numero = numero;
     }
 
-    public String getCliente() {
-        return cliente;
+    public String getFuncionario(){
+        return funcionario;
     }
 
-    public void setCliente(String cliente) {
-        this.cliente = cliente;
+    public void setFucionario(String funcionario) {
+        this.funcionario = funcionario;
     }
 
     public String getCpf() {
