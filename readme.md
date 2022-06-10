@@ -15,7 +15,7 @@ No Main será guardado os pedidos através do array multivalorado, o troco e out
 `@Antônio Leopoldo França Filho`: programador II responsável por elaborar, verificar e gerenciar o código</br></br>
 `@Ítalo Ricardo de Andrade Silva`: programador III responsável por verificar e gerenciar o código</br></br>
 `@Kauê Andrade dos Santos`: líder e programador IV responsável por elaborar, verificar e gerenciar o código</br></br>
-`@Ruth Oliveira Pereira`: programadora V responsável por verificar e gerenciar o código</br></br>
+`@Ruth Oliveira Pereira`: programadora V responsável por verificar e gerenciar o código</br>
 
 ### E-mails dos desenvolvedores</br>
 
