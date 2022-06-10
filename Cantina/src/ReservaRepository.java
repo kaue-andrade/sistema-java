@@ -1,6 +1,10 @@
+import java.util.;
 import java.util.ArrayList;
 
 public class ReservaRepository {
+
+    int posicao;
+    int novo_cpf;
 
     private ArrayList<Reserva> repository;
 
@@ -28,6 +32,8 @@ public class ReservaRepository {
     //Teste de alteração
 
     public void alterar(Reserva reserva){
+
+
 
         Reserva.set(reserva);
 
