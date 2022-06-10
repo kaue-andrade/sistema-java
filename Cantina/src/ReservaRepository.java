@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class ReversaRepository {
+public class ReservaRepository {
 
     private ArrayList<Reserva> repository;
 
