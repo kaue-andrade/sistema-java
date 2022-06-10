@@ -1,11 +1,11 @@
 public class NovoFuncionario {
 
-    private String cliente;
+    private String funcionario;
     private String cpf;
     private int id;
 
     public NovoFuncionario() {
-        this.cliente = cliente;
+        this.funcionario = funcionario;
         this.cpf = cpf;
         this.id = id;
     }
@@ -13,12 +13,12 @@ public class NovoFuncionario {
     public static void set(NovoFuncionario funcionario) {
     }
 
-    public String getCliente() {
-        return cliente;
+    public String getFuncionario() {
+        return funcionario;
     }
 
-    public void setCliente(String cliente) {
-        this.cliente = cliente;
+    public void setFuncionario(String funcionarioe) {
+        this.funcionario = funcionario;
     }
 
     public String getCpf() {
