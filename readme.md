@@ -12,11 +12,11 @@ No Main será guardado os pedidos através do array multivalorado, o troco e out
 ### Especificação do papel de cada membro
 | Membro                                                    | Papel                         |
 | ------------------------------------------------------------ | ---------------------------------- |
-| @Antonio Carlos Borges de Souza | Programador I responsável por verificar e gerenciar o código além de elaborar o _design_ e os comentários do programa` |
-| @Antônio Leopoldo França Filho | Programador II responsável por elaborar, verificar e gerenciar o código`                           |
-| @Ítalo Ricardo de Andrade Silva | Programador III responsável por verificar e gerenciar o código`                           |
-| @Kauê Andrade dos Santos | Líder e programador IV responsável por elaborar, verificar e gerenciar o código`                           |
-| @Ruth Oliveira Pereira | Programadora V responsável por verificar e gerenciar o código`                           |
+| @Antonio Carlos Borges de Souza | Programador I responsável por verificar e gerenciar o código além de elaborar o _design_ e os comentários do programa |
+| @Antônio Leopoldo França Filho | Programador II responsável por elaborar, verificar e gerenciar o código                           |
+| @Ítalo Ricardo de Andrade Silva | Programador III responsável por verificar e gerenciar o código                           |
+| @Kauê Andrade dos Santos | Líder e programador IV responsável por elaborar, verificar e gerenciar o código                           |
+| @Ruth Oliveira Pereira | Programadora V responsável por verificar e gerenciar o código                           |
 
 ### E-mails dos desenvolvedores</br>
 
