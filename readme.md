@@ -1,3 +1,5 @@
+![cantina](https://i.imgur.com/41R8Bs7.png)
+
 # Sistema para a cantina - IFBa - _Campus_ Euclides da Cunha
 
 ### Justificativa</br>
