@@ -1,4 +1,4 @@
-# Nome do Projeto - #i(1..4)
+# Sistema da cantina do IFBa _campus_ Euclides da Cunha - #i(1..4)
 
 # Retrospectiva 1
 
