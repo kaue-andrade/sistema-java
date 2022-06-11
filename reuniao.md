@@ -62,6 +62,14 @@ Ao consulta nossos clientes, pessoal que fica na cantina, fomos informados, logo
 | Permitir os funcionários marcarem os pedidos como entregues| @Ruth Oliveira   |
 
 
-### Informações Adicionais
+### Fontes de contato 
+ 
+_E-mails dos integrantes_: 
 
-* Alguma coisa
+*Antonio Carlos Borges de Souza* - antonio2306carlos@gmail.com </br>
+*Antônio Leopoldo França Filho* - LeoGamesPlay200@gmail.com </br>
+*Ítalo Ricardo Andrade Silva* - italogod96@gmail.com </br>
+*Kauê Andrade dos Santos* - kauedd22@gmail.com </br>
+*Ruth Oliveira Pereira* - blesedrutholiver@gmail.com </br>
+
+*Thais Oliveira Pinho* – Cantina do IFBa - _Campus_ Euclides da Cunha 
