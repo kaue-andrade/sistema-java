@@ -72,4 +72,4 @@ _E-mails dos integrantes_:
 *Kauê Andrade dos Santos* - kauedd22@gmail.com </br>
 *Ruth Oliveira Pereira* - blesedrutholiver@gmail.com </br>
 
-*Thais Oliveira Pinho* – Cantina do IFBa - Campus Euclides da Cunha 
+*Thais Oliveira Pinho* – Cantina do IFBa - _Campus_ Euclides da Cunha 
