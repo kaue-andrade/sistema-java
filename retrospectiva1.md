@@ -1,4 +1,4 @@
-# Nome do Projeto - #i(1..4)
+# Sistema para a cantina - IFBa - _Campus_ Euclides da Cunha - #i(1..4)
 
 # Retrospectiva 1
 
@@ -8,19 +8,19 @@
 
 
 ### O que estava planejado
-• Planejava-se um sistema para garantir a organização da Cantina do IFBa no campus de Euclides da Cunha (BA), tendo como principal objetivo a automatização dos pedidos, diminuindo o tempo de espera para o almoço.
+• Planejava-se um sistema para garantir a organização da cantina do IFBa no _campus_ de Euclides da Cunha (BA), tendo como principal objetivo a automatização dos pedidos, diminuindo o tempo de espera para o almoço.
 
 ### O que estava planejado
 | Atividade                                                    | Atribuição                         |
 | ------------------------------------------------------------ | ---------------------------------- |
-| Planejava-se um sistema para garantir a organização da Cantina do IFBa no campus de Euclides da Cunha (BA), tendo como principal objetivo a automatização dos pedidos, diminuindo o tempo de espera para o almoço. | `@todos` |
+| Planejava-se um sistema para garantir a organização da cantina do IFBa no _campus_ de Euclides da Cunha (BA), tendo como principal objetivo a automatização dos pedidos, diminuindo o tempo de espera para o almoço. | `@todos` |
 | As classes essenciais para o pleno funcionamento do sistema | `@Antônio Leopoldo`, `@Kauê`, `@Ítalo`                           |
 
 ### O que foi feito
 
 | Atividade                                                    | Atribuição                         |
 | ------------------------------------------------------------ | ---------------------------------- |
-| As funções já foram distribuídas para cada integrante. Também foi realizada a reunião com o cliente (responsável principal pela Cantina). A partir disso, foram iniciados alguns rascunhos, conforme o objetivo do projeto e as necessidades da cantina, tendo em vista as classes: alunos, clientes, funcionários e o sistema de pagamentos. | `@todos` |
+| As funções já foram distribuídas para cada integrante. Também foi realizada a reunião com o cliente (responsável principal pela cantina). A partir disso, foram iniciados alguns rascunhos, conforme o objetivo do projeto e as necessidades da cantina, tendo em vista as classes: clientes, reserva, funcionários e o plano mensal. | `@todos` |
 | Foi feito, até o registro desse relatório, a implementação de um sistema de banco de dados, responsável por armazenar valores referente aos preços pré-estabelecidos pelo cardápio da cantina.  | `@todos`                           |
 | Foi implementado, ao longo do código, comentários, os quais foram aplicados com a finalidade de orientar, caso necessite de uma atualização no sistema, para que o programador não tenha maiores dificuldades no reconhecimento de terminados trechos de código.   | `@todos`                           |
 | Em razão da breve necessidade, a classe principal já foi instanciada, invocando os objetos necessários.   | `@Kauê`                           |
@@ -32,7 +32,7 @@
 • Não foi feito, ainda, a implementação de linhas de código que permitam que o funcionário liste as solicitações por linhas de execução. </br>
 • É preciso implementar no sistema da cantina, ainda, uma forma permitam com que os usuários reservem os seus almoços, conforme as suas próprias exigências. </br>
 • É preciso, ainda, criar linhas de código que permitam que os funcionários consultem dados referente as quantidades e os produtos alimentícios ainda disponíveis para consumo, de modo a evitar a venda de produtos que não estão em estoque. </br>
-• faz-se necessário, também, criar uma forma para permitir que os funcionários destaquem os pedidos como entregues. </br>
+• Faz-se necessário, também, criar uma forma para permitir que os funcionários destaquem os pedidos como entregues. </br>
 • Apesar de já ter sido iniciado, é preciso completar o CRUD. </br>
 > **Nota:** Levante o que não foi realizado e o seu respectivo impedimento.
 
