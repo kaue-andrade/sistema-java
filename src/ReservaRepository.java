@@ -8,12 +8,45 @@ public class ReservaRepository {
 
     Scanner ler = new Scanner(System.in);
 
-    private ArrayList<Reserva> repository;
+    private ArrayList<Reserva> repository = new ArrayList<Reserva>();
 
     public void ReservaRepository(){
 
         this.repository = new ArrayList<Reserva>();
     }
+
+    /*Percorrendo o Array e imprimindo o cliente na reverva*/
+    public void listarClientesReverva() {
+        for (int pos = 0; pos < this.repository.size();pos++) {
+            System.out.println( (pos+1)+"-"+this.repository.get(pos).getCliente());
+        }
+    }
+
+    //Metodo que lista os cliente da reserva e possibilita excluir
+    public void deletarRevervaByCliente() {
+
+        this.listarClientesReverva();
+        System.out.println("\nEscolha entre os clientes acima para deletar!\n=====================================");
+
+        System.out.println(">>> ");
+        int index = ler.nextInt();
+
+        System.out.println("\n");
+        System.out.println("Tem certeza que deseja exlcuir o cliente?(y/n)");
+        String opcao = ler.next();
+
+        if(opcao.equalsIgnoreCase("y")) {
+            this.repository.remove((index-1));
+            System.out.println("Excluído com sucesso!");
+            this.listarClientesReverva();
+        }else {
+            this.listarClientesReverva();}
+
+
+
+    }
+
+
     public void inserir(Reserva reserva){
 
         repository.add(reserva);

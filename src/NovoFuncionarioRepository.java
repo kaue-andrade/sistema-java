@@ -13,10 +13,12 @@ public class NovoFuncionarioRepository {
     public void NovoFuncionarioRepository(){
 
         this.repository = new ArrayList<NovoFuncionario>();
+
     }
     public void inserir(NovoFuncionario funcionario){
 
         repository.add(funcionario);
+
     }
     public ArrayList<NovoFuncionario> getAll(){
 
@@ -50,4 +52,3 @@ public class NovoFuncionarioRepository {
     }
 
 }
-

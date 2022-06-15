@@ -4,7 +4,7 @@ public class NovoFuncionario {
     private String cpf;
     private int id;
 
-    public NovoFuncionario() {
+    public NovoFuncionario(String funcionario, String cpf, int id) {
         this.funcionario = funcionario;
         this.cpf = cpf;
         this.id = id;

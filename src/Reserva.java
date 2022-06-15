@@ -7,13 +7,16 @@ public class Reserva {
     private int quantidade;
     private String novo_cpf;
 
-    public Reserva() {
+    public Reserva(int numero, String cliente, String cpf, int almoco, int quantidade, String novo_cpf) {
         this.numero = numero;
         this.cliente = cliente;
         this.cpf = cpf;
         this.almoco = almoco;
         this.quantidade = quantidade;
+        this.novo_cpf = novo_cpf;
     }
+
+    public Reserva() {}
 
     public static void set(String reserva) {
     }
