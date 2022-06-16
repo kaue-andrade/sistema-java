@@ -7,7 +7,7 @@
 
 ### Descrição do produto</br>
 Por meio deste programa iremos facilitar e automatizar os pedidos da cantina do IFBa - _Campus_ Euclides da Cunha, criaremos um objeto pedido que guarda o nome da pessoa, a turma, o lanche solicitado, a forma de pagamento, caso for dinheiro qual a nota, etc.
-No Main será guardado os pedidos através do array multivalorado, o troco e outras informações e funcionalidades pertinentes para que o clientes e os funcionários realizem o atendimento com sucesso. Iremos realizar o cadastro dos alunos. O plano mensal que o aluno poderá pagar será baseado nos dados cadastrais do aluno. O sistema irá mostrar na tela todas as formas de pagamento que o aluno e as demais pessoas poderão utilizar como forma de pagamento, por exemplo: dinheiro em espécie, PIX, cartão, etc.
+No Main será guardado os pedidos através do array multivalorado, o troco e outras informações e funcionalidades pertinentes para que o clientes e os funcionários realizem o atendimento com sucesso. Iremos realizar o cadastro dos alunos. O plano mensal que o aluno poderá pagar será baseado nos dados cadastrais do aluno. O sistema irá mostrar na tela todas as formas de pagamento que o aluno e as demais pessoas poderão utilizar como forma de pagamento, por exemplo: dinheiro em espécie, PIX, plano mensal, etc.
 
 ### Especificação do papel de cada membro
 | Membro                                                    | Papel                         |
