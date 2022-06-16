@@ -74,4 +74,4 @@ _E-mails dos integrantes_:
 
 *Thais Oliveira Pinho* – Cantina do IFBa - _Campus_ Euclides da Cunha 
 
-![] (https://portal.ifba.edu.br/euclides-da-cunha/fotos-campus-euclides/flor-do-mandacaru/campus-euclide-da-cunha-02.jpg/@@images/image)
+![] (https://i.imgur.com/4diah4N.png)
