@@ -73,3 +73,5 @@ _E-mails dos integrantes_:
 *Ruth Oliveira Pereira* - blesedrutholiver@gmail.com </br>
 
 *Thais Oliveira Pinho* – Cantina do IFBa - _Campus_ Euclides da Cunha 
+
+![] (https://portal.ifba.edu.br/euclides-da-cunha/fotos-campus-euclides/flor-do-mandacaru/campus-euclide-da-cunha-06.jpg)
