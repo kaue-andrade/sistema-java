@@ -3,17 +3,15 @@ public class Reserva {
     private int numero;
     private String cliente;
     private String cpf;
-    private int almoco;
+    private String almoco;
     private int quantidade;
-    private String novo_cpf;
 
-    public Reserva(int numero, String cliente, String cpf, int almoco, int quantidade, String novo_cpf) {
+    public Reserva(int numero, String cliente, String cpf, String almoco, int quantidade) {
         this.numero = numero;
         this.cliente = cliente;
         this.cpf = cpf;
         this.almoco = almoco;
         this.quantidade = quantidade;
-        this.novo_cpf = novo_cpf;
     }
 
     public Reserva() {}
@@ -45,11 +43,11 @@ public class Reserva {
         this.cpf = cpf;
     }
 
-    public int getAlmoco() {
+    public String getAlmoco() {
         return almoco;
     }
 
-    public void setAlmoco(int almoco) {
+    public void setAlmoco(String almoco) {
         this.almoco = almoco;
     }
 
@@ -61,11 +59,4 @@ public class Reserva {
         this.quantidade = quantidade;
     }
 
-    public String getNovo_cpf() {
-        return novo_cpf;
-    }
-
-    public void setNovo_cpf(String novo_cpf) {
-        this.novo_cpf = novo_cpf;
-    }
 }

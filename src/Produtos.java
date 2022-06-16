@@ -38,7 +38,7 @@ public class Produtos {
 
     public void listarProdutos(){
 
-        System.out.println("\nLista do(s) produto(s) adicionado(s): " + produtos);
+        System.out.println("Lista do(s) produto(s) adicionado(s): " + produtos);
 
     }
 

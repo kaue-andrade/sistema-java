@@ -3,52 +3,65 @@ import java.util.ArrayList;
 
 public class NovoFuncionarioRepository {
 
-    int posicao;
-    String novo_cpf;
-
     Scanner ler = new Scanner(System.in);
 
-    private ArrayList<NovoFuncionario> repository;
+    private ArrayList<NovoFuncionario> repository = new ArrayList<NovoFuncionario>();
 
-    public void NovoFuncionarioRepository(){
+    public void ReservaRepository() {
 
         this.repository = new ArrayList<NovoFuncionario>();
-
     }
-    public void inserir(NovoFuncionario funcionario){
 
-        repository.add(funcionario);
+    //Percorrendo o Array e imprimindo o cliente na reverva
 
-    }
-    public ArrayList<NovoFuncionario> getAll(){
-
-        return repository;
-    }
-    public NovoFuncionario getOne(String cpf){
-        for (NovoFuncionario funcionario:repository) {
-            if(funcionario.getCpf() == cpf){
-                return funcionario;
-            }
+    public void listarClientesReserva() {
+        for (int pos = 0; pos < this.repository.size(); pos++) {
+            System.out.println((pos + 1) + " - " + this.repository.get(pos).getFuncionario());
         }
-        return null;
     }
 
-    //Alteração no ArrayList
+    //Método que lista os cliente da reserva e possibilita excluir
 
-    public void alterar(NovoFuncionario funcionario){
+    public void deletarNovoFuncionario() {
 
-        System.out.print("\nPosição que deseja alterar: ");
-        posicao = ler.nextInt();
+        this.listarClientesReserva();
+        System.out.println("\nEscolha entre os funcionários acima para deletar!\n=====================================");
 
-        System.out.print("\nPosição que deseja alterar: ");
-        novo_cpf = ler.next();
+        System.out.print(">>> ");
+        int index = ler.nextInt();
 
-        repository.get(posicao).set(novo_cpf);
+        System.out.println();
+        System.out.print("Tem certeza que deseja excluir o cliente? (y/n) ");
+        String opcao = ler.next();
 
+        if (opcao.equalsIgnoreCase("y")) {
+            this.repository.remove((index - 1));
+            System.out.println("\nExcluído com sucesso!\n");
+            this.listarClientesReserva();
+        } else {
+            this.listarClientesReserva();
+        }
     }
 
-    public void deletar(NovoFuncionario funcionario){
-        repository.remove(funcionario);
+    //Método que possibilita inserir
+
+    public void inserir(NovoFuncionario novoFuncionario){
+
+        repository.add(novoFuncionario);
     }
 
+    //Método que possibilita listar
+
+    public void listar(){
+
+        for (int pos = 0; pos < this.repository.size(); pos++) {
+
+            System.out.println("\n-------------------");
+            System.out.println((pos + 1) + " - " + this.repository.get(pos).getFuncionario());
+            System.out.println("CPF - " + this.repository.get(pos).getCpf());
+            System.out.println("ID - " + this.repository.get(pos).getId());
+            System.out.println("\n-------------------");
+        }
+    }
 }
+
