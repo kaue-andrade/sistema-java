@@ -74,4 +74,8 @@ _E-mails dos integrantes_:
 
 *Thais Oliveira Pinho* – Cantina do IFBa - _Campus_ Euclides da Cunha 
 
+## Local de realização da reunião
+
+IFBa - _Campus_ Euclides da Cunha 
+
 ![ifba](https://i.imgur.com/4diah4N.png)
