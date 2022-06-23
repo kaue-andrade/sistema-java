@@ -1,5 +1,7 @@
 # Sistema para a cantina - IFBa - _Campus_ Euclides da Cunha - #i(1..4)
 
+![cantina](https://i.imgur.com/A1iZVge.mp4)
+
 # Retrospectiva 1
 
 | Início da Iteração | Término da iteração |
