@@ -1,6 +1,6 @@
 # Sistema para a cantina - IFBa - _Campus_ Euclides da Cunha - #i(1..4)
 
-![cantina](https://i.imgur.com/A1iZVge.mp4)
+![cantina](https://i.imgur.com/A1iZVge.gif)
 
 # Retrospectiva 1
 
