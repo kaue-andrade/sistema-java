@@ -1,5 +1,7 @@
 # Projeto
 
+![Cantina gif](https://user-images.githubusercontent.com/91803383/175330609-2c08124e-ef98-44e1-ae54-7f5b13ac38d0.gif)
+
 Os alunos deverão desenvolver um projeto em equipes de no máximo **cinco componentes**. As avaliações serão compartilhados entre todos os membros (ou seja, o projeto recebe uma nota, não cada aluno em separado), e vamos exigir informações específicas sobre o papel de cada membro da equipe. A intenção é que as equipes desenvolvam, preferencialmente, projetos voltados para beneficiar a sociedade, de alguma forma, seja para organização vinculadas ao campus do IFBA, organizações sem fins lucrativos, para construir uma solução voltada para melhorar a qualidade de vida dos cidadãos ou explorar um nicho de mercado.
 
 > "Mas professor, eu tenho uma proposta que pode ser um bom projeto para o curso!"
