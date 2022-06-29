@@ -1,11 +1,13 @@
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.Calendar;
 
 public class CantinaMain {
     public static void main(String[] args) throws IOException {
 
         Scanner input = new Scanner(System.in);
+        Calendar c = Calendar.getInstance();
 
         System.out.println();
         System.out.println(" .d8888b.         d8888 888b    888 88888888888 8888888 888b    888        d8888");
@@ -17,6 +19,11 @@ public class CantinaMain {
         System.out.println("Y88b  d88P  d8888888888 888   Y8888     888       888   888   Y8888  d8888888888");
         System.out.println("  Y8888P   d88P     888 888    Y888     888     8888888 888    Y888 d88P     888");
 
+        System.out.println("\nData e hora atual: " + c.getTime());
+        System.out.println("Ano: " + c.get(Calendar.YEAR));
+        System.out.println("Mês: " + c.get(Calendar.MONTH));
+        System.out.println("Dia do mês: " + c.get(Calendar.DAY_OF_MONTH));
+
         Produtos p1 = new Produtos();
 
         System.out.println();
@@ -27,6 +34,11 @@ public class CantinaMain {
         p1.listarProdutos();
         p1.removerProduto();
         p1.listarProdutos();
+
+        System.out.println("\nData e hora atual: " + c.getTime());
+        System.out.println("Ano: " + c.get(Calendar.YEAR));
+        System.out.println("Mês: " + c.get(Calendar.MONTH));
+        System.out.println("Dia do mês: " + c.get(Calendar.DAY_OF_MONTH));
 
         System.out.println();
 
@@ -77,6 +89,11 @@ public class CantinaMain {
                 break;
             }
         }
+
+        System.out.println("\nData e hora atual: " + c.getTime());
+        System.out.println("Ano: " + c.get(Calendar.YEAR));
+        System.out.println("Mês: " + c.get(Calendar.MONTH));
+        System.out.println("Dia do mês: " + c.get(Calendar.DAY_OF_MONTH));
 
         ReservaRepository repository2 = new ReservaRepository();
 
@@ -130,6 +147,11 @@ public class CantinaMain {
                 break;
             }
         }
+
+        System.out.println("\nData e hora atual: " + c.getTime());
+        System.out.println("Ano: " + c.get(Calendar.YEAR));
+        System.out.println("Mês: " + c.get(Calendar.MONTH));
+        System.out.println("Dia do mês: " + c.get(Calendar.DAY_OF_MONTH));
 
         System.out.println("\nFim do programa! Tenha um ótimo dia! :D");
 
