@@ -24,16 +24,16 @@ public class CantinaMain {
         System.out.println("Mês: " + c.get(Calendar.MONTH));
         System.out.println("Dia do mês: " + c.get(Calendar.DAY_OF_MONTH));
 
-        Produtos p1 = new Produtos();
+        //Produtos p1 = new Produtos();
 
         System.out.println();
 
-        p1.adicionarProduto();
+        /*p1.adicionarProduto();
         p1.listarProdutos();
         p1.alterarProdutos();
         p1.listarProdutos();
         p1.removerProduto();
-        p1.listarProdutos();
+        p1.listarProdutos();*/
 
         System.out.println("\nData e hora atual: " + c.getTime());
         System.out.println("Ano: " + c.get(Calendar.YEAR));
@@ -152,6 +152,53 @@ public class CantinaMain {
         System.out.println("Ano: " + c.get(Calendar.YEAR));
         System.out.println("Mês: " + c.get(Calendar.MONTH));
         System.out.println("Dia do mês: " + c.get(Calendar.DAY_OF_MONTH));
+
+        ProdutosRepository repository5 = new ProdutosRepository();
+
+        System.out.print("Quantos produtos deseja adicionar? ");
+        q = input.nextInt();
+
+        System.out.println();
+
+        for (int i = 0; i < q; i++){
+
+            System.out.println("-------------------");
+
+            System.out.print("Nome do produto: ");
+            String nome = input.next();
+
+            System.out.print("Valor do produto: ");
+            double valor = input.nextDouble();
+
+            System.out.println("-------------------\n");
+
+            Produtos produtos1 = new Produtos(nome, valor);
+
+            repository5.inserir(produtos1);
+
+        }
+
+        System.out.println("Lista de todos os funcionários adicionados: ");
+
+        repository5.listar();
+
+        System.out.println();
+
+        while (true) {
+
+            repository5.deletarProduto();
+
+            repository5.listar();
+
+            System.out.print("\nDigite 0 para sair ou qualquer outra tecla para continuar\n>>> ");
+            String opc = input.next();
+
+            if(opc.equalsIgnoreCase("0")) {
+                break;
+            }
+        }
+
+        repository5.calculo();
 
         System.out.println("\nFim do programa! Tenha um ótimo dia! :D");
 
