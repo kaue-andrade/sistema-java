@@ -24,6 +24,7 @@ public class CantinaMain {
         System.out.println("Mês: " + c.get(Calendar.MONTH));
         System.out.println("Dia do mês: " + c.get(Calendar.DAY_OF_MONTH));
 
+<<<<<<< HEAD
         //Produtos p1 = new Produtos();
 
         System.out.println();
@@ -34,6 +35,18 @@ public class CantinaMain {
         p1.listarProdutos();
         p1.removerProduto();
         p1.listarProdutos();*/
+=======
+        Produtos produto1 = new Produtos();
+
+        System.out.println();
+
+        produto1.adicionarProduto();
+        produto1.listarProdutos();
+        produto1.alterarProdutos();
+        produto1.listarProdutos();
+        produto1.removerProduto();
+        produto1.listarProdutos();
+>>>>>>> 5f37c658fb43cdccc9b254429a247311f9327daa
 
         System.out.println("\nData e hora atual: " + c.getTime());
         System.out.println("Ano: " + c.get(Calendar.YEAR));
