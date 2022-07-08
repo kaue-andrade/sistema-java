@@ -16,7 +16,7 @@
 | Atividade                                                    | Atribuição                         |
 | ------------------------------------------------------------ | ---------------------------------- |
 | Corrigir as falhas e erros que surgiram ao longo da construção do sistema | `@todos` |
-| Adicionar novas funcionalidades. | `@Leo`, `@Ítalo`, `@Kauê`                           |
+| Adicionar novas funcionalidades | `@Leo`, `@Ítalo`, `@Kauê`                           |
 
 ### O que foi feito
 | Atividade                                                    | Atribuição                         |
