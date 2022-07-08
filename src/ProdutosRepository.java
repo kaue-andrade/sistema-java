@@ -68,7 +68,7 @@ public class ProdutosRepository {
             System.out.print("Quantas " + this.repository.get(pos).getNome() + " o cliente comprará? ");
             int quantia = ler.nextInt();
 
-            System.out.println(quantia + "x" + this.repository.get(pos).getValor() + " = R$ " +  this.repository.get(pos).getValor() * quantia);
+            System.out.println("\n" + quantia + "x" + this.repository.get(pos).getValor() + " = R$ " +  this.repository.get(pos).getValor() * quantia);
 
             double valorNovo = this.repository.get(pos).getValor() * quantia;
 
@@ -76,29 +76,17 @@ public class ProdutosRepository {
 
         }
 
-        System.out.println("Total: R$ " + total);
+        System.out.println("\nTotal: R$ " + total);
 
-        System.out.println("=-=-= Formas de pagamento =-=-=");
+        System.out.print("\nQuantia recebida: R$ ");
+        double quantia_recebida = ler.nextDouble();
 
-        System.out.println("1 - Dinheiro em espécie");
-        System.out.println("2 - Plano Mensal");
-        System.out.println("3 - Pix");
+        double troco = quantia_recebida - total;
 
-        System.out.print("Opção escolhida: ");
-        String opc = ler.next();
+        System.out.println("\nTroco: R$ " + troco);
 
-        if(opc == "1"){
+        System.out.println("\nSe for um número negativo, ignore.");
 
-            System.out.print("Quantia recebida: ");
-            double quantia_recebida = ler.nextDouble();
-
-            double troco = quantia_recebida - total;
-
-            System.out.println("Troco: R$ " + troco);
-
-            System.out.println("Se for um número negativo, ignore.");
-
-        }
     }
 }
 

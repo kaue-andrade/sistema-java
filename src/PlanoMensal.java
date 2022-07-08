@@ -1,20 +1,11 @@
 public class PlanoMensal {
-    private String cpf;
+
     private String nome;
-    private int fone;
+    private int fichas;
 
-    public PlanoMensal() {
-        this.cpf = cpf;
+    public PlanoMensal(String nome, int fichas) {
         this.nome = nome;
-        this.fone = fone;
-    }
-
-    public String getCpf() {
-        return cpf;
-    }
-
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
+        this.fichas = fichas;
     }
 
     public String getNome() {
@@ -25,11 +16,11 @@ public class PlanoMensal {
         this.nome = nome;
     }
 
-    public int getFone() {
-        return fone;
+    public int getFichas() {
+        return fichas;
     }
 
-    public void setFone(int fone) {
-        this.fone = fone;
+    public void setFichas(int fichas) {
+        this.fichas = fichas;
     }
 }

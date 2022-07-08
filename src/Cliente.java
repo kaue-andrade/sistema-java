@@ -1,18 +1,11 @@
 public class Cliente {
+
     private String cpf;
     private String nome;
-    private String fone;
 
     public Cliente() {
         this.cpf = cpf;
         this.nome = nome;
-        this.fone = fone;
-    }
-
-    public static void set(int indice, int novo_cliente) {
-    }
-
-    public static void set(String cliente) {
     }
 
     public String getCpf() {
@@ -29,13 +22,5 @@ public class Cliente {
 
     public void setNome(String nome) {
         this.nome = nome;
-    }
-
-    public String getFone() {
-        return fone;
-    }
-
-    public void setFone(String fone) {
-        this.fone = fone;
     }
 }
