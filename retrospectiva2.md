@@ -1,4 +1,4 @@
-# Nome do Projeto - #i(1..4)
+# Sistema para a cantina - IFBa - _Campus_ Euclides da Cunha - #i(2..4)
 
 ![Cantina gif](https://user-images.githubusercontent.com/91803383/175330609-2c08124e-ef98-44e1-ae54-7f5b13ac38d0.gif)
 
