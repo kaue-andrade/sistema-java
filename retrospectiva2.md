@@ -31,12 +31,12 @@
 
 ### Planejado para próxima iteração
 
-- Últimos ajustes e correções de falhas
-- Finalização do projeto
+- Últimos ajustes e correções de falhas;
+- Finalização do projeto.
 
 ### Lições aprendidas
 
--Além da comunhão entre os integrantes e a boa colaboração entre os tais, que se apregoou existente a partir da fase inicial do projeto, também foi perceptível que uma das principais lições aprendidas, se trata do processo em que todos compartilharam conhecimentos para realização de cada passo até aqui executado dentro do sistema;
+- Além da comunhão entre os integrantes e a boa colaboração entre os tais, que se apregoou existente a partir da fase inicial do projeto, também foi perceptível que uma das principais lições aprendidas, se trata do processo em que todos compartilharam conhecimentos para realização de cada passo até aqui executado dentro do sistema;
 - Maior domínio da lógica de programação;
 - Maior domínio em relação à Programação Orientada a Objetos (POO);
 - Maior domínio do Calendar.
