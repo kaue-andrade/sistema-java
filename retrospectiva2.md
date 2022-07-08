@@ -21,8 +21,15 @@
 ### O que foi feito
 | Atividade                                                    | Atribuição                         |
 | ------------------------------------------------------------ | ---------------------------------- |
-| Mussum Ipsum, cacilds vidis litro abertis. Si num tem leite então bota uma pinga aí cumpadi! | `@pessoa1`, `@pessoa2`, `@pessoa3` |
-| Mussum Ipsum, cacilds vidis litro abertis. Si num tem leite então bota uma pinga aí cumpadi! | `@todos`                           |
+| Forma de finalização da compra | `@Ruth` |
+| Reserva e ReservaRepository | `@Antonio Carlos`                           |
+| Comentários pelo código | `@todos`                           |
+| Classe Alunos | `@Antônio Leopoldo`, `@Ítalo Ricardo`                           |
+| Classe Servidores | `@Antônio Leopoldo`                           |
+| Formas de pagamento | `@Ruth`, `@Kauê`                         |
+| Produtos e ProdutosRepository (em fase de finalização) | `@Kauê`                           |
+| PlanoMensal e PlanoMensalRepository (em fase de finalização) | `@Kauê`                           |
+| Calendar para o sistema em geral e para cada reserva feita pelo funcionário | `@Kauê`                           |
 
 
 ### O que não foi feito
