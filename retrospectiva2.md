@@ -6,14 +6,17 @@
 
 | Início da Iteração | Término da iteração |
 | ------------------ | ------------------- |
-| xx/xx/xxxx         | xx/xx/xxxx          |
+| 05/07/2022         | 08/07/2022          |
 
+### Objetivo inicial e principal do planejamento sobre a execução
+
+- Planejava-se um sistema para garantir a organização da cantina do IFBa no campus de Euclides da Cunha (BA), tendo como principal objetivo a automatização dos pedidos, diminuindo o tempo de espera para o almoço.
 
 ### O que estava planejado
 | Atividade                                                    | Atribuição                         |
 | ------------------------------------------------------------ | ---------------------------------- |
-| Mussum Ipsum, cacilds vidis litro abertis. Si num tem leite então bota uma pinga aí cumpadi! | `@pessoa1`, `@pessoa2`, `@pessoa3` |
-| Mussum Ipsum, cacilds vidis litro abertis. Si num tem leite então bota uma pinga aí cumpadi! | `@todos`                           |
+| Corrigir as falhas e erros que surgiram ao longo da construção do sistema | `@todos` |
+| Adicionar novas funcionalidades. | `@Leo`, `@Ítalo`, `@Kauê`                           |
 
 ### O que foi feito
 | Atividade                                                    | Atribuição                         |
