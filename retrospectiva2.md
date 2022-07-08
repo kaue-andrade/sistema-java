@@ -30,10 +30,6 @@
 | ------------------------------------------------------------ | 
 | Cliente e ClienteRepository | 
 | Método para alterar os dados recebidos do funcionário |
-
-### O que não foi feito
-* Cliente e ClienteRepository;
-* Método para alterar os dados recebidos do funcionário.
 > **Nota:** Levante o que não foi realizado e o seu respectivo impedimento.
 
 ### Planejado para próxima iteração
