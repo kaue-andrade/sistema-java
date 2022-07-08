@@ -31,13 +31,16 @@
 > **Nota:** Levante o que não foi realizado e o seu respectivo impedimento.
 
 ### Planejado para próxima iteração
-* Mussum Ipsum, cacilds vidis litro abertis. Si num tem leite então bota uma pinga aí cumpadi!
-* Mussum Ipsum, cacilds vidis litro abertis. Si num tem leite então bota uma pinga aí cumpadi!
-* Mussum Ipsum, cacilds vidis litro abertis. Si num tem leite então bota uma pinga aí cumpadi! 
+
+-Últimos ajustes e correções de falhas
+-Finalização do projeto
+
 
 ### Lições aprendidas
-* Mussum Ipsum, cacilds vidis litro abertis. Si num tem leite então bota uma pinga aí cumpadi!
-* Mussum Ipsum, cacilds vidis litro abertis. Si num tem leite então bota uma pinga aí cumpadi!
-* Mussum Ipsum, cacilds vidis litro abertis. Si num tem leite então bota uma pinga aí cumpadi!
+
+-Além da comunhão entre os integrantes e a boa colaboração entre os tais, que se apregoou existente a partir da fase inicial do projeto, também foi perceptível que uma das principais lições aprendidas, se trata do processo em que todos compartilharam conhecimentos para realização de cada passo até aqui executado dentro do sistema;
+- Maior domínio da lógica de programação;
+- Maior domínio em relação à Programação Orientada a Objetos (POO);
+- Maior domínio do Calendar.
 
 > **Nota:** Levante o que foi aprendido nesta iteração, seja de carácter individual e/ou coletivo.
