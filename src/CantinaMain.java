@@ -283,6 +283,13 @@ public class CantinaMain {
             }
         }
 
+        int confirmar_compra = 1;
+
+        while (confirmar_compra == 1){
+            System.out.print("Toda a compra foi finalizada com sucesso? (SIM - 1) (NÃO - 2)");
+            confirmar_compra = input.nextInt();
+        }
+        
         System.out.println("\nFim do programa! Tenha um ótimo dia! :D");
 
     }
