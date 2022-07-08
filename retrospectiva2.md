@@ -25,16 +25,14 @@
 | Mussum Ipsum, cacilds vidis litro abertis. Si num tem leite então bota uma pinga aí cumpadi! | `@todos`                           |
 
 ### O que não foi feito
-* Mussum Ipsum, cacilds vidis litro abertis. Si num tem leite então bota uma pinga aí cumpadi!
-* Mussum Ipsum, cacilds vidis litro abertis. Si num tem leite então bota uma pinga aí cumpadi!
-* Mussum Ipsum, cacilds vidis litro abertis. Si num tem leite então bota uma pinga aí cumpadi!
+* Cliente e ClienteRepository;
+* Método para alterar os dados recebidos do funcionário.
 > **Nota:** Levante o que não foi realizado e o seu respectivo impedimento.
 
 ### Planejado para próxima iteração
 
--Últimos ajustes e correções de falhas
--Finalização do projeto
-
+- Últimos ajustes e correções de falhas
+- Finalização do projeto
 
 ### Lições aprendidas
 
