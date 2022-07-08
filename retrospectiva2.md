@@ -24,6 +24,13 @@
 | Mussum Ipsum, cacilds vidis litro abertis. Si num tem leite então bota uma pinga aí cumpadi! | `@pessoa1`, `@pessoa2`, `@pessoa3` |
 | Mussum Ipsum, cacilds vidis litro abertis. Si num tem leite então bota uma pinga aí cumpadi! | `@todos`                           |
 
+
+### O que não foi feito
+| Atividade                                                    | 
+| ------------------------------------------------------------ | 
+| Cliente e ClienteRepository | 
+| Método para alterar os dados recebidos do funcionário |
+
 ### O que não foi feito
 * Cliente e ClienteRepository;
 * Método para alterar os dados recebidos do funcionário.
