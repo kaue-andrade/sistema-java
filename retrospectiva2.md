@@ -35,7 +35,7 @@
 ### O que não foi feito
 | Atividade                                                    | 
 | ------------------------------------------------------------ | 
-| Cliente e ClienteRepository | 
+| Clientes e ClienteRepository | 
 | Método para alterar os dados recebidos do funcionário |
 > **Nota:** Levante o que não foi realizado e o seu respectivo impedimento.
 
