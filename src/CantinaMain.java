@@ -22,7 +22,7 @@ public class CantinaMain {
 
         System.out.println("\nData e hora atual: " + c.getTime());
         System.out.println("Ano: " + c.get(Calendar.YEAR));
-        System.out.println("Mês: " + c.get(Calendar.MONTH));
+        System.out.println("Mês: " + (c.get(Calendar.MONTH) + 1));
         System.out.println("Dia do mês: " + c.get(Calendar.DAY_OF_MONTH));
 
         Clientes c1 = new Clientes();
@@ -34,15 +34,8 @@ public class CantinaMain {
         c1.listarClientes();
         c1.alterarClientes();
         c1.listarClientes();
-        /*p1.removerProduto();
-        p1.listarProdutos();*/
-
-        /*produto1.adicionarProduto();
-        produto1.listarProdutos();
-        produto1.alterarProdutos();
-        produto1.listarProdutos();
-        produto1.removerProduto();
-        produto1.listarProdutos();*/
+        c1.removerClientes();
+        c1.listarClientes();
 
         ProdutosRepository repository5 = new ProdutosRepository();
 
