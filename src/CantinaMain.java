@@ -37,10 +37,64 @@ public class CantinaMain {
         c1.listarClientes();
         c1.valorAlmoco();
 
-        ProdutosRepository repository5 = new ProdutosRepository();
+        NovoFuncionarioRepository repository1 = new NovoFuncionarioRepository();
 
-        System.out.print("Quantos produtos deseja adicionar? ");
+        System.out.print("Quantos funcionários deseja adicionar? ");
         int q = input.nextInt();
+
+        System.out.println();
+
+        for (int i = 0; i < q; i++) {
+
+            System.out.println("-------------------");
+
+            System.out.print("Funcionário: ");
+            String funcionario = input.next();
+
+            System.out.print("CPF: ");
+            String cliente = input.next();
+
+            System.out.print("ID: ");
+            int id = input.nextInt();
+
+            System.out.println("-------------------\n");
+
+            NovoFuncionario funcionario1 = new NovoFuncionario(funcionario, cliente, id);
+
+            repository1.inserir(funcionario1);
+
+        }
+
+        System.out.println("Lista de todos os funcionários adicionados: ");
+
+        repository1.listar();
+
+        System.out.println();
+
+        String opc;
+        while (true) {
+
+            repository1.deletarNovoFuncionario();
+
+            repository1.listar();
+
+            System.out.print("\nDigite 0 para sair ou qualquer outra tecla para continuar\n>>> ");
+            opc = input.next();
+
+            if (opc.equalsIgnoreCase("0")) {
+                break;
+            }
+        }
+
+        System.out.println("\nData e hora atual: " + c.getTime());
+        System.out.println("Ano: " + c.get(Calendar.YEAR));
+        System.out.println("Mês: " + (c.get(Calendar.MONTH) + 1));
+        System.out.println("Dia do mês: " + c.get(Calendar.DAY_OF_MONTH));
+
+        ProdutosRepository repository2 = new ProdutosRepository();
+
+        System.out.print("\nQuantos produtos deseja adicionar? ");
+        q = input.nextInt();
 
         System.out.println();
 
@@ -58,24 +112,24 @@ public class CantinaMain {
 
             Produtos produtos1 = new Produtos(nome, valor);
 
-            repository5.inserir(produtos1);
+            repository2.inserir(produtos1);
 
         }
 
         System.out.println("Lista de todos os produtos adicionados: ");
 
-        repository5.listar();
+        repository2.listar();
 
         System.out.println();
 
         while (true) {
 
-            repository5.deletarProduto();
+            repository2.deletarProduto();
 
-            repository5.listar();
+            repository2.listar();
 
             System.out.print("\nDigite 0 para sair ou qualquer outra tecla para continuar\n>>> ");
-            String opc = input.next();
+            opc = input.next();
 
             if (opc.equalsIgnoreCase("0")) {
                 break;
@@ -95,7 +149,7 @@ public class CantinaMain {
 
         if(forma_pagamento == 1) {
 
-            repository5.calculo();
+            repository2.calculo();
 
         } else if (forma_pagamento == 2){
 
@@ -137,7 +191,7 @@ public class CantinaMain {
                 repository6.listar();
 
                 System.out.print("Digite 0 para sair ou qualquer outra tecla para continuar\n>>> ");
-                String opc = input.next();
+                opc = input.next();
 
                 if (opc.equalsIgnoreCase("0")) {
                     break;
@@ -164,60 +218,6 @@ public class CantinaMain {
         System.out.println("Dia do mês: " + c.get(Calendar.DAY_OF_MONTH));
 
         System.out.println();
-
-        NovoFuncionarioRepository repository2 = new NovoFuncionarioRepository();
-
-        System.out.print("Quantos funcionários deseja adicionar? ");
-        q = input.nextInt();
-
-        System.out.println();
-
-        for (int i = 0; i < q; i++) {
-
-            System.out.println("-------------------");
-
-            System.out.print("Funcionário: ");
-            String funcionario = input.next();
-
-            System.out.print("CPF: ");
-            String cliente = input.next();
-
-            System.out.print("ID: ");
-            int id = input.nextInt();
-
-            System.out.println("-------------------\n");
-
-            NovoFuncionario funcionario1 = new NovoFuncionario(funcionario, cliente, id);
-
-            repository2.inserir(funcionario1);
-
-        }
-
-        System.out.println("Lista de todos os funcionários adicionados: ");
-
-        repository2.listar();
-
-        System.out.println();
-
-        String opc;
-        while (true) {
-
-            repository2.deletarNovoFuncionario();
-
-            repository2.listar();
-
-            System.out.print("\nDigite 0 para sair ou qualquer outra tecla para continuar\n>>> ");
-            opc = input.next();
-
-            if (opc.equalsIgnoreCase("0")) {
-                break;
-            }
-        }
-
-        System.out.println("\nData e hora atual: " + c.getTime());
-        System.out.println("Ano: " + c.get(Calendar.YEAR));
-        System.out.println("Mês: " + (c.get(Calendar.MONTH) + 1));
-        System.out.println("Dia do mês: " + c.get(Calendar.DAY_OF_MONTH));
 
         ReservaRepository repository3 = new ReservaRepository();
 
@@ -286,5 +286,89 @@ public class CantinaMain {
 
         System.out.println("\nFim do programa! Tenha um ótimo dia! :D");
 
+        System.out.println();
+
+        System.out.println("=-=-= Formas de pagamento =-=-=\n");
+
+        System.out.println("1 - Dinheiro em espécie");
+        System.out.println("2 - Plano Mensal");
+        System.out.println("3 - PIX");
+
+        System.out.print("\nOpção escolhida: ");
+        forma_pagamento = input.nextInt();
+
+        if(forma_pagamento == 1) {
+
+            repository2.calculo();
+
+        } else if (forma_pagamento == 2){
+
+            PlanoMensalRepository repository6 = new PlanoMensalRepository();
+
+            System.out.print("Quantos planos mensais deseja adicionar? ");
+            q = input.nextInt();
+
+            System.out.println();
+
+            for (int i = 0; i < q; i++) {
+
+                System.out.println("-------------------");
+
+                System.out.print("Nome: ");
+                String nome = input.next();
+
+                System.out.print("Fichas: ");
+                int fichas = input.nextInt();
+
+                System.out.println("-------------------\n");
+
+                PlanoMensal planoMensal1 = new PlanoMensal(nome, fichas);
+
+                repository6.inserir(planoMensal1);
+
+            }
+
+            System.out.println("Lista de todos os planos mensais adicionados: ");
+
+            repository6.listar();
+
+            System.out.println();
+
+            while (true) {
+
+                repository6.deletarPlanoMensal();
+
+                repository6.listar();
+
+                System.out.print("Digite 0 para sair ou qualquer outra tecla para continuar\n>>> ");
+                opc = input.next();
+
+                if (opc.equalsIgnoreCase("0")) {
+                    break;
+                }
+            }
+
+            System.out.println("\nPagamento realizado com sucesso!");
+
+        } else{
+
+            System.out.println("PIX da cantina: pixcantinaifba@gmail.com");
+
+            int confirmar = 1;
+
+            while (confirmar == 1){
+                System.out.print("Pagamento realizado? (SIM - 1) (NÃO - 2)");
+                confirmar = input.nextInt();
+            }
+        }
+
+        System.out.println("\nData e hora atual: " + c.getTime());
+        System.out.println("Ano: " + c.get(Calendar.YEAR));
+        System.out.println("Mês: " + (c.get(Calendar.MONTH) + 1));
+        System.out.println("Dia do mês: " + c.get(Calendar.DAY_OF_MONTH));
+
+        System.out.println();
+
     }
+
 }

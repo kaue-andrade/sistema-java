@@ -87,15 +87,15 @@ public class Clientes {
         Alunos a1 = new Alunos();
         Servidores s1 = new Servidores();
 
-        System.out.println("=-=-= Almoço =-=-=");
+        System.out.println("\n=-=-= Almoço =-=-=");
 
-        System.out.print("\nO cliente é aluno ou servidor (ALUNO - 1) (SERVIDOR - 2)? ");
+        System.out.print("\nO(s) cliente(s) é(são) aluno(s) ou servidor(es) (ALUNO - 1) (SERVIDOR - 2)? ");
         opc = ler.nextInt();
 
         if (opc == 1){
-            System.out.println("Valor do almoço para o aluno: R$ " + a1.getAlmoco());
+            System.out.println("\nValor do almoço para o(s) aluno(s): R$ " + a1.getAlmoco());
         } else{
-            System.out.println("Valor do almoço para o servidor: R$ " + s1.getAlmoco());
+            System.out.println("\nValor do almoço para o(s) servidor(es): R$ " + s1.getAlmoco());
         }
 
         System.out.println();
