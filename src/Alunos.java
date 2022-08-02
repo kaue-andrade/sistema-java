@@ -1,7 +1,6 @@
 public class Alunos extends Clientes {
 
-    private int almoco = 9;
-
+    private int almoco = 11;
 
     public int getAlmoco() {
         return almoco;

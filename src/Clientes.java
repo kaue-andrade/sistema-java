@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Clientes {
 
-    private int verificador = 1;
+    private int opc;
     private int quantidade;
     private int indice;
     private String novo_cliente;
@@ -80,5 +80,97 @@ public class Clientes {
 
         System.out.println();
 
+    }
+
+    public void valorAlmoco(){
+
+        Alunos a1 = new Alunos();
+        Servidores s1 = new Servidores();
+
+        System.out.println("=-=-= Almoço =-=-=");
+
+        System.out.print("\nO cliente é aluno ou servidor (ALUNO - 1) (SERVIDOR - 2)? ");
+        opc = ler.nextInt();
+
+        if (opc == 1){
+            System.out.println("Valor do almoço para o aluno: R$ " + a1.getAlmoco());
+        } else{
+            System.out.println("Valor do almoço para o servidor: R$ " + s1.getAlmoco());
+        }
+
+        System.out.println();
+
+    }
+
+    public int getOpc() {
+        return opc;
+    }
+
+    public void setOpc(int opc) {
+        this.opc = opc;
+    }
+
+    public int getQuantidade() {
+        return quantidade;
+    }
+
+    public void setQuantidade(int quantidade) {
+        this.quantidade = quantidade;
+    }
+
+    public int getIndice() {
+        return indice;
+    }
+
+    public void setIndice(int indice) {
+        this.indice = indice;
+    }
+
+    public String getNovo_cliente() {
+        return novo_cliente;
+    }
+
+    public void setNovo_cliente(String novo_cliente) {
+        this.novo_cliente = novo_cliente;
+    }
+
+    public String getCliente() {
+        return cliente;
+    }
+
+    public void setCliente(String cliente) {
+        this.cliente = cliente;
+    }
+
+    public double getValor() {
+        return valor;
+    }
+
+    public void setValor(double valor) {
+        this.valor = valor;
+    }
+
+    public int getI() {
+        return i;
+    }
+
+    public void setI(int i) {
+        this.i = i;
+    }
+
+    public static Scanner getLer() {
+        return ler;
+    }
+
+    public static void setLer(Scanner ler) {
+        Clientes.ler = ler;
+    }
+
+    public static ArrayList<String> getClientes() {
+        return clientes;
+    }
+
+    public static void setClientes(ArrayList<String> clientes) {
+        Clientes.clientes = clientes;
     }
 }

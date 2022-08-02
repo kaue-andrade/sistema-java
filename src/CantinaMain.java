@@ -35,6 +35,7 @@ public class CantinaMain {
         c1.listarClientes();
         c1.removerClientes();
         c1.listarClientes();
+        c1.valorAlmoco();
 
         ProdutosRepository repository5 = new ProdutosRepository();
 
@@ -123,7 +124,7 @@ public class CantinaMain {
 
             }
 
-            System.out.println("Lista de todos os funcionários adicionados: ");
+            System.out.println("Lista de todos os planos mensais adicionados: ");
 
             repository6.listar();
 

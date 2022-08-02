@@ -1,10 +1,6 @@
-public class Servidores {
+public class Servidores extends Clientes {
 
-    private int almoco = 11;
-
-    public Servidores(int almoco) {
-        this.almoco = almoco;
-    }
+    private int almoco = 12;
 
     public int getAlmoco() {
         return almoco;
