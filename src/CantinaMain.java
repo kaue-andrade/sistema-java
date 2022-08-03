@@ -27,15 +27,6 @@ public class CantinaMain {
 
         System.out.println();
 
-        c1.adicionarCliente();
-        System.out.println();
-        c1.listarClientes();
-        c1.alterarClientes();
-        c1.listarClientes();
-        c1.removerClientes();
-        c1.listarClientes();
-        c1.valorAlmoco();
-
         NovoFuncionarioRepository repository1 = new NovoFuncionarioRepository();
 
         System.out.print("Quantos funcionários deseja adicionar? ");
@@ -84,6 +75,22 @@ public class CantinaMain {
                 break;
             }
         }
+
+        System.out.println("\nData e hora atual: " + c.getTime());
+        System.out.println("Ano: " + c.get(Calendar.YEAR));
+        System.out.println("Mês: " + (c.get(Calendar.MONTH) + 1));
+        System.out.println("Dia do mês: " + c.get(Calendar.DAY_OF_MONTH));
+
+        System.out.println();
+
+        c1.adicionarCliente();
+        System.out.println();
+        c1.listarClientes();
+        c1.alterarClientes();
+        c1.listarClientes();
+        c1.removerClientes();
+        c1.listarClientes();
+        c1.valorAlmoco();
 
         System.out.println("\nData e hora atual: " + c.getTime());
         System.out.println("Ano: " + c.get(Calendar.YEAR));
@@ -281,10 +288,10 @@ public class CantinaMain {
         System.out.println("Mês: " + (c.get(Calendar.MONTH) + 1));
         System.out.println("Dia do mês: " + c.get(Calendar.DAY_OF_MONTH));
 
-        int confirmar_compra = 1;
+        int confirmar_compra = 2;
 
         while (confirmar_compra != 1){
-            System.out.print("Toda a compra foi finalizada com sucesso? (SIM - 1) (NÃO - 2)");
+            System.out.print("Toda a compra foi finalizada com sucesso? (SIM - 1) (NÃO - 2) ");
             confirmar_compra = input.nextInt();
         }
 

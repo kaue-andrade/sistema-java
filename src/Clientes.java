@@ -93,9 +93,9 @@ public class Clientes {
         opc = ler.nextInt();
 
         if (opc == 1){
-            System.out.println("\nValor do almoço para o(s) aluno(s): R$ " + a1.getAlmoco());
+            System.out.print("\nValor do almoço para o(s) aluno(s): R$ " + a1.getAlmoco());
         } else{
-            System.out.println("\nValor do almoço para o(s) servidor(es): R$ " + s1.getAlmoco());
+            System.out.print("\nValor do almoço para o(s) servidor(es): R$ " + s1.getAlmoco());
         }
 
         System.out.println();
