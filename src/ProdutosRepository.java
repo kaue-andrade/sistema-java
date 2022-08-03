@@ -25,13 +25,13 @@ public class ProdutosRepository {
     public void deletarProduto() {
 
         this.listarProdutos();
-        System.out.println("\nEscolha entre os clientes acima para deletar!\n=====================================");
+        System.out.println("\nEscolha entre os produtos acima para deletar!\n=====================================");
 
         System.out.print(">>> ");
         int index = ler.nextInt();
 
         System.out.println();
-        System.out.print("Tem certeza que deseja excluir o cliente? (y/n) ");
+        System.out.print("Tem certeza que deseja excluir o produto? (y/n) ");
         String opcao = ler.next();
 
         if (opcao.equalsIgnoreCase("y")) {

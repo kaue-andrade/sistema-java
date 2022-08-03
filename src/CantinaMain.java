@@ -1,10 +1,9 @@
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Calendar;
 
 public class CantinaMain {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
         Calendar c = Calendar.getInstance();
@@ -105,8 +104,8 @@ public class CantinaMain {
             System.out.print("Nome do produto: ");
             String nome = input.next();
 
-            System.out.print("Valor do produto: ");
-            double valor = input.nextDouble();
+            System.out.print("Valor do produto: R$ ");
+            float valor = input.nextFloat();
 
             System.out.println("-------------------\n");
 
@@ -127,6 +126,71 @@ public class CantinaMain {
             repository2.deletarProduto();
 
             repository2.listar();
+
+            System.out.print("\nDigite 0 para sair ou qualquer outra tecla para continuar\n>>> ");
+            opc = input.next();
+
+            if (opc.equalsIgnoreCase("0")) {
+                break;
+            }
+        }
+
+        System.out.println("\nData e hora atual: " + c.getTime());
+        System.out.println("Ano: " + c.get(Calendar.YEAR));
+        System.out.println("Mês: " + (c.get(Calendar.MONTH) + 1));
+        System.out.println("Dia do mês: " + c.get(Calendar.DAY_OF_MONTH));
+
+        System.out.println();
+
+        ReservaRepository repository3 = new ReservaRepository();
+
+        System.out.print("\nQuantas reservas deseja adicionar? ");
+        q = input.nextInt();
+
+        System.out.println();
+
+        for (int i = 0; i < q; i++) {
+
+            System.out.println("-------------------");
+
+            System.out.print("Número da reserva: ");
+            int numero = input.nextInt();
+
+            System.out.print("Cliente: ");
+            String cliente = input.next();
+
+            System.out.print("CPF: ");
+            String cpf = input.next();
+
+            System.out.print("Almoço: ");
+            String almoco = input.next();
+
+            System.out.print("Quantidade: ");
+            int quantidade = input.nextInt();
+
+            System.out.println("\nData e hora atual: " + c.getTime());
+            System.out.println("Ano: " + c.get(Calendar.YEAR));
+            System.out.println("Mês: " + (c.get(Calendar.MONTH) + 1));
+            System.out.println("Dia do mês: " + c.get(Calendar.DAY_OF_MONTH));
+
+            System.out.println("-------------------\n");
+
+            Reserva reserva = new Reserva(numero, cliente, cpf, almoco, quantidade);
+
+            repository3.inserir(reserva);
+        }
+
+        System.out.println("Lista de todas as reservas feitas: ");
+
+        repository3.listar();
+
+        System.out.println();
+
+        while (true) {
+
+            repository3.deletarRevervaByCliente();
+
+            repository3.listar();
 
             System.out.print("\nDigite 0 para sair ou qualquer outra tecla para continuar\n>>> ");
             opc = input.next();
@@ -217,69 +281,9 @@ public class CantinaMain {
         System.out.println("Mês: " + (c.get(Calendar.MONTH) + 1));
         System.out.println("Dia do mês: " + c.get(Calendar.DAY_OF_MONTH));
 
-        System.out.println();
-
-        ReservaRepository repository3 = new ReservaRepository();
-
-        System.out.print("\nQuantas reservas deseja adicionar? ");
-        q = input.nextInt();
-
-        System.out.println();
-
-        for (int i = 0; i < q; i++) {
-
-            System.out.println("-------------------");
-
-            System.out.print("Número da reserva: ");
-            int numero = input.nextInt();
-
-            System.out.print("Cliente: ");
-            String cliente = input.next();
-
-            System.out.print("CPF: ");
-            String cpf = input.next();
-
-            System.out.print("Almoço: ");
-            String almoco = input.next();
-
-            System.out.print("Quantidade: ");
-            int quantidade = input.nextInt();
-
-            System.out.println("\nData e hora atual: " + c.getTime());
-            System.out.println("Ano: " + c.get(Calendar.YEAR));
-            System.out.println("Mês: " + (c.get(Calendar.MONTH) + 1));
-            System.out.println("Dia do mês: " + c.get(Calendar.DAY_OF_MONTH));
-
-            System.out.println("-------------------\n");
-
-            Reserva reserva = new Reserva(numero, cliente, cpf, almoco, quantidade);
-
-            repository3.inserir(reserva);
-        }
-
-        System.out.println("Lista de todas as reservas feitas: ");
-
-        repository3.listar();
-
-        System.out.println();
-
-        while (true) {
-
-            repository3.deletarRevervaByCliente();
-
-            repository3.listar();
-
-            System.out.print("\nDigite 0 para sair ou qualquer outra tecla para continuar\n>>> ");
-            opc = input.next();
-
-            if (opc.equalsIgnoreCase("0")) {
-                break;
-            }
-        }
-
         int confirmar_compra = 1;
 
-        while (confirmar_compra == 1){
+        while (confirmar_compra != 1){
             System.out.print("Toda a compra foi finalizada com sucesso? (SIM - 1) (NÃO - 2)");
             confirmar_compra = input.nextInt();
         }
@@ -288,87 +292,5 @@ public class CantinaMain {
 
         System.out.println();
 
-        System.out.println("=-=-= Formas de pagamento =-=-=\n");
-
-        System.out.println("1 - Dinheiro em espécie");
-        System.out.println("2 - Plano Mensal");
-        System.out.println("3 - PIX");
-
-        System.out.print("\nOpção escolhida: ");
-        forma_pagamento = input.nextInt();
-
-        if(forma_pagamento == 1) {
-
-            repository2.calculo();
-
-        } else if (forma_pagamento == 2){
-
-            PlanoMensalRepository repository6 = new PlanoMensalRepository();
-
-            System.out.print("Quantos planos mensais deseja adicionar? ");
-            q = input.nextInt();
-
-            System.out.println();
-
-            for (int i = 0; i < q; i++) {
-
-                System.out.println("-------------------");
-
-                System.out.print("Nome: ");
-                String nome = input.next();
-
-                System.out.print("Fichas: ");
-                int fichas = input.nextInt();
-
-                System.out.println("-------------------\n");
-
-                PlanoMensal planoMensal1 = new PlanoMensal(nome, fichas);
-
-                repository6.inserir(planoMensal1);
-
-            }
-
-            System.out.println("Lista de todos os planos mensais adicionados: ");
-
-            repository6.listar();
-
-            System.out.println();
-
-            while (true) {
-
-                repository6.deletarPlanoMensal();
-
-                repository6.listar();
-
-                System.out.print("Digite 0 para sair ou qualquer outra tecla para continuar\n>>> ");
-                opc = input.next();
-
-                if (opc.equalsIgnoreCase("0")) {
-                    break;
-                }
-            }
-
-            System.out.println("\nPagamento realizado com sucesso!");
-
-        } else{
-
-            System.out.println("PIX da cantina: pixcantinaifba@gmail.com");
-
-            int confirmar = 1;
-
-            while (confirmar == 1){
-                System.out.print("Pagamento realizado? (SIM - 1) (NÃO - 2)");
-                confirmar = input.nextInt();
-            }
-        }
-
-        System.out.println("\nData e hora atual: " + c.getTime());
-        System.out.println("Ano: " + c.get(Calendar.YEAR));
-        System.out.println("Mês: " + (c.get(Calendar.MONTH) + 1));
-        System.out.println("Dia do mês: " + c.get(Calendar.DAY_OF_MONTH));
-
-        System.out.println();
-
     }
-
 }

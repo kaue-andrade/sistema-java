@@ -1,6 +1,6 @@
 public class Servidores extends Clientes {
 
-    private int almoco = 12;
+    private int almoco = 11;
 
     public int getAlmoco() {
         return almoco;

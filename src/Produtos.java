@@ -1,9 +1,9 @@
 public class Produtos {
 
     private String nome;
-    private double valor;
+    private float valor;
 
-    public Produtos(String nome, double valor) {
+    public Produtos(String nome, float valor) {
         this.nome = nome;
         this.valor = valor;
     }
@@ -20,7 +20,7 @@ public class Produtos {
         return valor;
     }
 
-    public void setValor(double valor) {
+    public void setValor(float valor) {
         this.valor = valor;
     }
 }
